@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="skylineapp.Views.FacebookProfilePage"
+             xmlns:viewModels="clr-namespace:skylineapp.ViewModels;assembly=skylineapp"
+             Title="Facebook Profile"
+             BackgroundColor="White">
+    
+    <ContentPage.BindingContext>
+        <viewModels:FacebookViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout x:Name="MainStackLayout" Padding="8,8">
+        
+        <Image Source = "{Binding FacebookProfile.Picture.Data.Url}"
+               HeightRequest="300"
+               WidthRequest="300"
+               VerticalOptions="Start"/>
+        
+        <Label Text="{Binding FacebookProfile.Name, StringFormat='Name: {0:N}'}"
+               TextColor="Black"
+               Font="Bold"
+               FontSize="22"/>
+        
+        <Label Text = "{Binding FacebookProfile.AgeRange.Min, StringFormat='Age: {0:N}'}"
+               TextColor="Black"
+               FontSize="20"/>
+                                    
+        <Label Text = "{Binding FacebookProfile.Gender, StringFormat='Gender: {0:N}'}"
+                       TextColor="Black"
+                       FontSize="22"/>
+
+        <Label Text = "{Binding FacebookProfile.Devices[0].Os, StringFormat='Devices: {0:N}'}"
+               TextColor="Black"
+               FontSize="22"/>
+        
+        <Image Source = "{Binding FacebookProfile.Cover.Source}" HeightRequest="200" />
+    
+    </StackLayout>
+</ContentPage>

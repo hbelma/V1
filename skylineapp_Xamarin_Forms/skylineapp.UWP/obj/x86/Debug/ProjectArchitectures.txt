@@ -1,0 +1,2 @@
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp.UWP\skylineapp.UWP.csproj;x86
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\skylineapp.csproj;neutral

@@ -1,0 +1,202 @@
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineappiOS.exe
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineappiOS.pdb
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Microsoft.Azure.Mobile.Client.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PCLCrypto.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.BCrypt.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.Kernel32.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.NCrypt.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.Windows.Core.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.IO.Compression.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Net.Http.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Validation.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineapp.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineapp.pdb
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineapp.iOS.csprojResolveAssemblyReference.cache
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineappiOS.exe
+C:\Users\belma\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineappiOS.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineappiOS.exe
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineappiOS.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Microsoft.Azure.Mobile.Client.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Extensions.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Primitives.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PCLCrypto.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.BCrypt.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.Kernel32.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.NCrypt.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.Windows.Core.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Validation.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Media.Abstractions.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Media.Abstractions.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineapp.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineapp.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineapp.iOS.csprojResolveAssemblyReference.cache
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineappiOS.exe
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineappiOS.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineappiOS.exe
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineappiOS.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Microsoft.Azure.Mobile.Client.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Extensions.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Primitives.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PCLCrypto.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.BCrypt.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.Kernel32.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.NCrypt.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\PInvoke.Windows.Core.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Validation.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Media.Abstractions.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Media.Abstractions.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineapp.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\bin\iPhoneSimulator\Debug\skylineapp.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineapp.iOS.csprojResolveAssemblyReference.cache
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineappiOS.exe
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineappiOS.pdb

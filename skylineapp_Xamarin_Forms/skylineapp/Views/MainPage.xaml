@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="skylineapp.Views.MainPage"
+             Title="Skyline"
+             xmlns:local="clr-namespace:skylineapp.ViewModels;assembly=skylineapp"
+             BackgroundColor="White">
+    
+    <ScrollView>
+        
+        <Grid Padding="20,0,20,00" ColumnSpacing="10" RowSpacing="6">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackLayout Spacing="30" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="2">
+                
+                <Image  HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="135" HeightRequest="135"
+                Source="appicon.jpg" 
+                Aspect="AspectFill"
+                x:Name="CircleImageAvatar"/>
+
+                <Label HorizontalTextAlignment="Center"
+                HorizontalOptions="FillAndExpand"
+                LineBreakMode="WordWrap"
+                FontSize="16"
+                Text="Sign in now and let us be part of your story"/>
+            </StackLayout>
+
+            <Entry x:Name="username" Text="{Binding Username,Mode=TwoWay}" Margin="0, 1, 0, 0"  Grid.Row="2" Grid.ColumnSpan="2" 
+             Placeholder="Username" >
+            </Entry>
+
+            <Entry  x:Name="password" Text="{Binding Password,Mode=TwoWay}" Margin="0, 1, 0, 0"  Grid.Row="3" Grid.ColumnSpan="2" 
+             Placeholder="Password" IsPassword="True" >
+            </Entry>
+
+            <Button 
+                x:Name="signInBtn" 
+                TextColor="White" 
+                FontSize="18" 
+                Margin="0, 1, 0, 0" 
+                Grid.Row="4" 
+                Grid.ColumnSpan="2" 
+                Text="Sign in" 
+                VerticalOptions="Center" 
+                BackgroundColor="#4CAF50" 
+                Command="{Binding LoginCommand}"/>
+
+            <BoxView Margin="-2, 1, -2, 1" Grid.Row="5" Grid.ColumnSpan="2" BackgroundColor="Black"></BoxView>
+            
+            <Button Text="Login with Facebook"
+              Grid.Row="6"
+              Grid.ColumnSpan="2"
+              TextColor="White"
+              BackgroundColor="#01579B"
+              FontSize="18"
+              VerticalOptions="Center"
+              Margin="0, 1, 0, 0"
+              Clicked="FBButton_Clicked"/>
+
+            <Button 
+                x:Name="signUpBtn" 
+                TextColor="White" 
+                FontSize="18" 
+                Margin="0, 1, 0, 0" 
+                Grid.Row="7" 
+                Grid.ColumnSpan="2" 
+                Text="Register" 
+                VerticalOptions="Center" 
+                BackgroundColor="#db3236" 
+                Command="{Binding SignUpCommand}"/>
+
+        </Grid>
+    </ScrollView>
+    
+</ContentPage>

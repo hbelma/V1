@@ -1,0 +1,30 @@
+C:\Users\belma\skylineapp_Xamarin_Forms\skylineapp\bin\Debug\skylineapp.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\skylineapp\bin\Debug\skylineapp.pdb
+C:\Users\belma\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.TodoList.xaml.g.cs
+C:\Users\belma\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.MainPage.xaml.g.cs
+C:\Users\belma\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.FacebookProfilePage.xaml.g.cs
+C:\Users\belma\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.dll
+C:\Users\belma\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.pdb
+C:\Users\belma\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyReference.cache
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\bin\Debug\skylineapp.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\bin\Debug\skylineapp.pdb
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyReference.cache
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.TodoList.xaml.g.cs
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.MainPage.xaml.g.cs
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.FacebookProfilePage.xaml.g.cs
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.GoogleProfilePage.xaml.g.cs
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.SignUpPage.xaml.g.cs
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.CategoriesPage.xaml.g.cs
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.dll
+C:\Users\belma\backup prije promjena\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\bin\Debug\skylineapp.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\bin\Debug\skylineapp.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.TodoList.xaml.g.cs
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.MainPage.xaml.g.cs
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.FacebookProfilePage.xaml.g.cs
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.GoogleProfilePage.xaml.g.cs
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.SignUpPage.xaml.g.cs
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.Views.CategoriesPage.xaml.g.cs
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.dll
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.pdb
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyReference.cache

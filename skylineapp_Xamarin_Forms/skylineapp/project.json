@@ -1,0 +1,16 @@
+﻿{
+  "dependencies": {
+    "Microsoft.Azure.Mobile.Client": "4.0.1",
+    "NETStandard.Library": "2.0.0",
+    "Plugin.Facebook": "1.0.0",
+    "System.ComponentModel": "4.3.0",
+    "Xam.Plugin.Media": "3.0.1",
+    "Xam.Plugins.Settings": "3.0.1",
+    "Xamarin.Forms": "2.3.4.267"
+  },
+  "frameworks": {
+    "netstandard1.4": {
+      "imports": "portable-win8+net45+wpa81"
+    }
+  }
+}

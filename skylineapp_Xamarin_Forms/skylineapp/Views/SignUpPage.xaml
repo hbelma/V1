@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:skylineapp.Behavior;assembly=skylineapp"
+             xmlns:pics="clr-namespace:skylineapp.Models;assembly=skylineapp"
+                          xmlns:images="clr-namespace:skylineapp.Images;assembly=skylineapp"
+
+             x:Class="skylineapp.Views.SignUpPage">
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <Color x:Key="Primary">#2196F3</Color>
+            <Color x:Key="PrimaryDark">#1976D2</Color>
+            <Color x:Key="Accent">#96d1ff</Color>
+            <Color x:Key="LightBackgroundColor">#FAFAFA</Color>
+            <Color x:Key="DarkBackgroundColor">#C0C0C0</Color>
+            <Color x:Key="MediumGrayTextColor">#4d4d4d</Color>
+            <Color x:Key="LightTextColor">#999999</Color>
+            <Color x:Key="Gray">#605a5b</Color>
+            <Color x:Key="NAVcolor">#2cb737</Color>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+            <local:BooleanToObjectConverter x:Key="boolToStyleImage"
+                                              x:TypeArguments="Style">
+                <local:BooleanToObjectConverter.FalseObject>
+                    <Style TargetType="Image">
+                        <Setter Property="HeightRequest" Value="8" />
+                        <Setter Property="Source" Value="{pics:ImageResource skylineapp.Images.error.png}" />
+                    </Style>
+                </local:BooleanToObjectConverter.FalseObject>
+
+                <local:BooleanToObjectConverter.TrueObject>
+                    <Style TargetType="Image">
+                        <Setter Property="HeightRequest" Value="8" />
+                        <Setter Property="Source" Value="{pics:ImageResource skylineapp.Images.success.png}" />
+                    </Style>
+                </local:BooleanToObjectConverter.TrueObject>
+            </local:BooleanToObjectConverter>
+
+            
+            <Style x:Key="baseStyle"
+             TargetType="Label">
+                <Setter Property="XAlign" Value="Start" />
+                <Setter Property="YAlign" Value="Center" />
+                <Setter Property="FontSize" Value="Micro" />
+                <Setter Property="FontAttributes" Value="Italic" />
+            </Style>
+
+
+            <local:BooleanToObjectConverter x:Key="boolToStyleName"
+                                           x:TypeArguments="Style">
+                <local:BooleanToObjectConverter.FalseObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#F44336" />
+                    </Style>
+                </local:BooleanToObjectConverter.FalseObject>
+
+                <local:BooleanToObjectConverter.TrueObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#4CAF50" />
+                    </Style>
+                </local:BooleanToObjectConverter.TrueObject>
+
+            </local:BooleanToObjectConverter>
+
+
+            <local:BooleanToObjectConverter x:Key="boolToStyleLastName"
+                                           x:TypeArguments="Style">
+                <local:BooleanToObjectConverter.FalseObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#F44336" />
+                    </Style>
+                </local:BooleanToObjectConverter.FalseObject>
+
+                <local:BooleanToObjectConverter.TrueObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#4CAF50" />
+                    </Style>
+                </local:BooleanToObjectConverter.TrueObject>
+
+            </local:BooleanToObjectConverter>
+
+            <local:BooleanToObjectConverter x:Key="boolToStyleEmail"
+                                           x:TypeArguments="Style">
+                <local:BooleanToObjectConverter.FalseObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#F44336" />
+                    </Style>
+                </local:BooleanToObjectConverter.FalseObject>
+
+                <local:BooleanToObjectConverter.TrueObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#4CAF50" />
+                    </Style>
+                </local:BooleanToObjectConverter.TrueObject>
+
+            </local:BooleanToObjectConverter>
+
+
+            <local:BooleanToObjectConverter x:Key="boolToStyleUsername"
+                                           x:TypeArguments="Style">
+                <local:BooleanToObjectConverter.FalseObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#F44336" />
+                    </Style>
+                </local:BooleanToObjectConverter.FalseObject>
+
+                <local:BooleanToObjectConverter.TrueObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#4CAF50" />
+                    </Style>
+                </local:BooleanToObjectConverter.TrueObject>
+
+            </local:BooleanToObjectConverter>
+
+
+            <local:BooleanToObjectConverter x:Key="boolToStylePassword"
+                                           x:TypeArguments="Style">
+                <local:BooleanToObjectConverter.FalseObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#F44336" />
+                    </Style>
+                </local:BooleanToObjectConverter.FalseObject>
+
+                <local:BooleanToObjectConverter.TrueObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#4CAF50" />
+                    </Style>
+                </local:BooleanToObjectConverter.TrueObject>
+
+            </local:BooleanToObjectConverter>
+
+
+            <local:BooleanToObjectConverter x:Key="boolToStyleConfirmPassword"
+                                           x:TypeArguments="Style">
+                <local:BooleanToObjectConverter.FalseObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#F44336" />
+                    </Style>
+                </local:BooleanToObjectConverter.FalseObject>
+
+                <local:BooleanToObjectConverter.TrueObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#4CAF50" />
+                    </Style>
+                </local:BooleanToObjectConverter.TrueObject>
+
+            </local:BooleanToObjectConverter>
+
+
+            <local:BooleanToObjectConverter x:Key="boolToStyleAge"
+                                           x:TypeArguments="Style">
+                <local:BooleanToObjectConverter.FalseObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#F44336" />
+                    </Style>
+                </local:BooleanToObjectConverter.FalseObject>
+
+                <local:BooleanToObjectConverter.TrueObject>
+                    <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+                        <Setter Property="TextColor" Value="#4CAF50" />
+                    </Style>
+                </local:BooleanToObjectConverter.TrueObject>
+
+            </local:BooleanToObjectConverter>
+
+
+        </ResourceDictionary>
+
+    </ContentPage.Resources>
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0" />
+    </ContentPage.Padding>
+
+
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="25" />
+                <ColumnDefinition Width="15"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Entry Margin="2, 2, 2, 2" Grid.Row="1" Grid.Column="1"
+             Placeholder="Name" x:Name="firstname" Text="{Binding User.FirstName, StringFormat='{0}', Mode=TwoWay}" >
+                <Entry.Behaviors>
+                    <local:FirstNameValidator x:Name="imeValidator" IsValid="{Binding IsValid, Mode=TwoWay}"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Image Margin="2, 2, 2, 2"  Grid.Row="1" Grid.Column="2" x:Name="imeSuccessErrorImage"
+                  Style="{Binding Source={x:Reference imeValidator}, 
+                                Path=IsValid, 
+                                Converter={StaticResource boolToStyleImage}}"/>
+
+            <Entry  x:Name="lastname" Margin="2, 2, 2, 2"  Grid.Row="2" Grid.Column="1"
+             Placeholder="Last Name" Text="{Binding User.LastName, StringFormat='{0}', Mode=TwoWay}"  >
+                <Entry.Behaviors>
+                    <local:FirstNameValidator x:Name="prezimeValidator" IsValid="{Binding IsValid, Mode=TwoWay}"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Image  Margin="2, 2, 2, 2"  Grid.Row="2" Grid.Column="2" x:Name="prezimeSuccessErrorImage" 
+                  Style="{Binding Source={x:Reference prezimeValidator}, 
+                                Path=IsValid, 
+                                Converter={StaticResource boolToStyleImage}}"/>
+
+            <Entry  x:Name="email"  Text="{Binding User.Email, StringFormat='{0}', Mode=TwoWay}" Margin="2, 2, 2, 2"  Grid.Row="3" Grid.Column="1"
+             Placeholder="Email" >
+                <Entry.Behaviors>
+                    <local:EmailValidator x:Name="emailValidator" IsValid="{Binding IsValid, Mode=TwoWay}"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Image Margin="2, 2, 2, 2"  Grid.Row="3" Grid.Column="2" x:Name="emailSuccessErrorImage" 
+                  Style="{Binding Source={x:Reference emailValidator}, 
+                                Path=IsValid, 
+                                Converter={StaticResource boolToStyleImage}}"/>
+
+            <Entry x:Name="username" Text="{Binding User.Username, StringFormat='{0}', Mode=TwoWay}" Margin="2, 2, 2, 2"  Grid.Row="4" Grid.Column="1"
+             Placeholder="Username" >
+                <Entry.Behaviors>
+                    <local:UsernameValidator x:Name="usernameValidator" IsValid="{Binding IsValid, Mode=TwoWay}"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Image Margin="2, 2, 2, 2"  Grid.Row="4" Grid.Column="2" x:Name="usernameSuccessErrorImage" 
+                  Style="{Binding Source={x:Reference usernameValidator}, 
+                                Path=IsValid, 
+                                Converter={StaticResource boolToStyleImage}}"/>
+
+            <Entry  x:Name="password" Text="{Binding User.Password, StringFormat='{0}', Mode=TwoWay}" Margin="2, 2, 2, 2"  Grid.Row="5" Grid.Column="1"
+             Placeholder="Password" IsPassword="True" >
+                <Entry.Behaviors>
+                    <local:PasswordValidator x:Name="passwordValidator" IsValid="{Binding IsValid, Mode=TwoWay}"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Image Margin="2, 2, 2, 2"  Grid.Row="5" Grid.Column="2" x:Name="passwordSuccessErrorImage" 
+                  Style="{Binding Source={x:Reference passwordValidator}, 
+                                Path=IsValid, 
+                                Converter={StaticResource boolToStyleImage}}"/>
+
+
+            <Entry x:Name="confirmPassword"  Margin="2, 2, 2, 2" 
+                   Grid.Row="6" Grid.Column="1" Placeholder="Confirm Password" IsPassword="true">
+                <Entry.Behaviors>
+                    <local:ConfirmPasswordValidator IsValid="{Binding IsValid, Mode=TwoWay}" x:Name="confirmPasswordBehavior" CompareToEntry="{Binding Source={x:Reference password}}" />
+                </Entry.Behaviors>
+            </Entry>
+            <Image Margin="2, 2, 2, 2"  Grid.Row="6" Grid.Column="2" x:Name="ConfirmPasswordSuccessErrorImage" 
+                  Style="{Binding Source={x:Reference confirmPasswordBehavior}, 
+                                Path=IsValid, 
+                                Converter={StaticResource boolToStyleImage}}"/>
+
+
+            <Entry  x:Name="age" Text="{Binding User.Age, StringFormat='{0}', Mode=TwoWay}" Grid.Row="7" Grid.Column="1" 
+           Placeholder="Age" Margin="2, 2, 2, 2" >
+                <Entry.Behaviors>
+                    <local:NumberValidator IsValid="{Binding IsValid, Mode=TwoWay}" x:Name="ageValidator" />
+                    <local:MaxLengthValidator MaxLength="2"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Image Margin="2, 2, 2, 2"  Grid.Row="7" Grid.Column="2" x:Name="ageSuccessErrorImage" 
+                  Style="{Binding Source={x:Reference ageValidator}, 
+                                Path=IsValid, 
+                                Converter={StaticResource boolToStyleImage}}"/>
+
+            <Button Text="Add photo" TextColor="White" Grid.Row="8" Grid.Column="1" BackgroundColor="Pink" Margin="20, 0, 20, 0" Command="{Binding AddPhotoCommand}" />
+
+            <Button Text="Submit" TextColor="White" BackgroundColor="#4CAF50" Grid.Row="9" Grid.ColumnSpan="2" Margin="20, 0, 20, 0" Command="{Binding RegisterCommand}" />
+
+
+
+        </Grid>
+
+
+
+    </StackLayout>
+</ContentPage>
