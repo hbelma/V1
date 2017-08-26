@@ -1459,16 +1459,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\iOS\\skylineapp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\belma\\Desktop\\Skyline\\iOS\\skylineapp.iOS.csproj",
       "projectName": "skylineapp.iOS",
-      "projectPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\iOS\\skylineapp.iOS.csproj",
-      "projectJsonPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\iOS\\project.json",
+      "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\iOS\\skylineapp.iOS.csproj",
+      "projectJsonPath": "C:\\Users\\belma\\Desktop\\Skyline\\iOS\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\skylineapp.csproj"
+            "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj"
             }
           }
         }

@@ -49,9 +49,12 @@
     <Compile Include="Helpers\UserManager.cs" />
     <Compile Include="Interfaces\INavigationService.cs" />
     <Compile Include="Interfaces\IPictures.cs" />
+    <Compile Include="Layout\LayoutData.cs" />
+    <Compile Include="Layout\WrapLayout.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\FacebookProfile.cs" />
     <Compile Include="Models\GoogleProfile.cs" />
+    <Compile Include="Models\ImageList.cs" />
     <Compile Include="Models\ImageResourceExtension.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +80,9 @@
     </Compile>
     <Compile Include="Views\GoogleProfilePage.xaml.cs">
       <DependentUpon>GoogleProfilePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImageWrapLayoutPage.xaml.cs">
+      <DependentUpon>ImageWrapLayoutPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -126,6 +132,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\CategoriesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ImageWrapLayoutPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

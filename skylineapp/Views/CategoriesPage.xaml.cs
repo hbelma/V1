@@ -47,7 +47,7 @@ namespace skylineapp.Views
 
             if (kategorija != null)
             {
-                Navigation.PushAsync(new MainPage());
+                Navigation.PushAsync(new ImageWrapLayoutPage());
             }
             else
             {

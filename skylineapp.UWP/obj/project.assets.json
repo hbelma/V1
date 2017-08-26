@@ -27129,10 +27129,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp.UWP\\skylineapp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp.UWP\\skylineapp.UWP.csproj",
       "projectName": "skylineapp.UWP",
-      "projectPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp.UWP\\skylineapp.UWP.csproj",
-      "outputPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp.UWP\\obj\\",
+      "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp.UWP\\skylineapp.UWP.csproj",
+      "outputPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "uap10.0.10586"
@@ -27140,8 +27140,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\skylineapp.csproj"
+            "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj"
             }
           }
         }

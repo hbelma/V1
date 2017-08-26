@@ -5099,10 +5099,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\skylineapp.csproj",
+      "projectUniqueName": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj",
       "projectName": "skylineapp",
-      "projectPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\skylineapp.csproj",
-      "projectJsonPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\project.json",
+      "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj",
+      "projectJsonPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

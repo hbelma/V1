@@ -1532,16 +1532,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\Droid\\skylineapp.Droid.csproj",
+      "projectUniqueName": "C:\\Users\\belma\\Desktop\\Skyline\\Droid\\skylineapp.Droid.csproj",
       "projectName": "skylineapp.Droid",
-      "projectPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\Droid\\skylineapp.Droid.csproj",
-      "projectJsonPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\Droid\\project.json",
+      "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\Droid\\skylineapp.Droid.csproj",
+      "projectJsonPath": "C:\\Users\\belma\\Desktop\\Skyline\\Droid\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\skylineapp.csproj"
+            "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj"
             }
           }
         }
