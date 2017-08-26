@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:viewModels="clr-namespace:skylineapp.ViewModels;assembly=skylineapp"
+             xmlns:local="clr-namespace:skylineapp.Models;assembly=skylineapp"
+             x:Name="Categories"
+             x:Class="skylineapp.Views.CategoriesPage">
+    <ScrollView>
+        <ListView  x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Categories}" ItemSelected="listView_ItemSelected">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <Grid RowSpacing="3">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="13"/>
+
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Margin="5, 5, 5, 5" HorizontalOptions="StartAndExpand" VerticalOptions="Center" WidthRequest="100" Grid.Column="0" Grid.RowSpan="3" Source="{Binding Image}" />
+                            <Label Text="{Binding Title}" Margin="5, 0, 5, 0"  FontAttributes="Bold"  Grid.Column="1" Grid.Row="0" FontSize="Small" VerticalTextAlignment="Center" />
+                            <Label Text="{Binding Subtitle}" Margin="5, 0, 5, 0" Grid.Column="1" Grid.Row="1" FontSize="Default" VerticalTextAlignment="Start" />
+
+
+                        </Grid>
+
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </ScrollView>
+</ContentPage>

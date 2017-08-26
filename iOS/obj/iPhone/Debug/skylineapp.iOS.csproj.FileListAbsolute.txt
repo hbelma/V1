@@ -1,0 +1,5 @@
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhone\Debug\optimized\
+C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhone\Debug\skylineapp.iOS.csprojResolveAssemblyReference.cache
