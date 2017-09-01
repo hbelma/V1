@@ -481,7 +481,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     }
@@ -1532,16 +1532,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\belma\\Desktop\\Skyline\\Droid\\skylineapp.Droid.csproj",
+      "projectUniqueName": "D:\\Faks\\DiplomskiApp\\Droid\\skylineapp.Droid.csproj",
       "projectName": "skylineapp.Droid",
-      "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\Droid\\skylineapp.Droid.csproj",
-      "projectJsonPath": "C:\\Users\\belma\\Desktop\\Skyline\\Droid\\project.json",
+      "projectPath": "D:\\Faks\\DiplomskiApp\\Droid\\skylineapp.Droid.csproj",
+      "projectJsonPath": "D:\\Faks\\DiplomskiApp\\Droid\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj"
+            "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj"
             }
           }
         }

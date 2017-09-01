@@ -2515,7 +2515,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     },
@@ -5063,7 +5063,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     },
@@ -7650,7 +7650,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     },
@@ -10207,7 +10207,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     },
@@ -12803,7 +12803,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     },
@@ -15360,7 +15360,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     },
@@ -17956,7 +17956,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     }
@@ -27129,10 +27129,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp.UWP\\skylineapp.UWP.csproj",
+      "projectUniqueName": "D:\\Faks\\DiplomskiApp\\skylineapp.UWP\\skylineapp.UWP.csproj",
       "projectName": "skylineapp.UWP",
-      "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp.UWP\\skylineapp.UWP.csproj",
-      "outputPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp.UWP\\obj\\",
+      "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp.UWP\\skylineapp.UWP.csproj",
+      "outputPath": "D:\\Faks\\DiplomskiApp\\skylineapp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "uap10.0.10586"
@@ -27140,8 +27140,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj"
+            "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj"
             }
           }
         }

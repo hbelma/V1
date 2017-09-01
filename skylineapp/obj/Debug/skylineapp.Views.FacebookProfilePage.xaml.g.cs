@@ -11,8 +11,7 @@
 namespace skylineapp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\Views\\Facebook" +
-        "ProfilePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Faks\\DiplomskiApp\\skylineapp\\Views\\FacebookProfilePage.xaml")]
     public partial class FacebookProfilePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

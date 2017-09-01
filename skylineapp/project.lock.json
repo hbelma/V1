@@ -1227,7 +1227,7 @@
           "lib/netstandard1.0/Plugin.Settings.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.267": {
+      "Xamarin.Forms/2.3.4.270": {
         "type": "package",
         "compile": {
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Core.dll": {},
@@ -4923,10 +4923,10 @@
         "xam.plugins.settings.nuspec"
       ]
     },
-    "Xamarin.Forms/2.3.4.267": {
-      "sha512": "omf8FJHxEogCP80W1zfhAwMd4P81TasKOOdVXDJYH4cQ/huhKY5N1YioQ75BP4E75y6VE3aJtAglfeImIQoB5A==",
+    "Xamarin.Forms/2.3.4.270": {
+      "sha512": "D4QNulRsghAnjGefCuxvHaH9xLdk9gmSrqSoyIH9YqRa/+HNil7nLCt3Dwb7np1eNlKD6AoW+Kgv9Umur/yoUQ==",
       "type": "package",
-      "path": "xamarin.forms/2.3.4.267",
+      "path": "xamarin.forms/2.3.4.270",
       "files": [
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Mdb.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Pdb.dll",
@@ -5077,7 +5077,7 @@
         "lib/wpa81/Xamarin.Forms.Platform.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.2.3.4.267.nupkg.sha512",
+        "xamarin.forms.2.3.4.270.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -5090,7 +5090,7 @@
       "System.ComponentModel >= 4.3.0",
       "Xam.Plugin.Media >= 3.0.1",
       "Xam.Plugins.Settings >= 3.0.1",
-      "Xamarin.Forms >= 2.3.4.267"
+      "Xamarin.Forms >= 2.3.4.270"
     ],
     ".NETStandard,Version=v1.4": []
   },
@@ -5099,10 +5099,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj",
+      "projectUniqueName": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj",
       "projectName": "skylineapp",
-      "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj",
-      "projectJsonPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\project.json",
+      "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj",
+      "projectJsonPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {
@@ -5112,7 +5112,7 @@
       "System.ComponentModel": "4.3.0",
       "Xam.Plugin.Media": "3.0.1",
       "Xam.Plugins.Settings": "3.0.1",
-      "Xamarin.Forms": "2.3.4.267"
+      "Xamarin.Forms": "2.3.4.270"
     },
     "frameworks": {
       "netstandard1.4": {

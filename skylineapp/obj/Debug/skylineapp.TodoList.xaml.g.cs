@@ -11,7 +11,7 @@
 namespace skylineapp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\belma\\backupdiplomski\\skylineapp_Xamarin_Forms\\skylineapp\\TodoList.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Faks\\DiplomskiApp\\skylineapp\\TodoList.xaml")]
     public partial class TodoList : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

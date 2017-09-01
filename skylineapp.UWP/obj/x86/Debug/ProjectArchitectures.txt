@@ -1,2 +1,2 @@
-C:\Users\belma\Desktop\Skyline\skylineapp.UWP\skylineapp.UWP.csproj;x86
-C:\Users\belma\Desktop\Skyline\skylineapp\skylineapp.csproj;neutral
+D:\Faks\DiplomskiApp\skylineapp.UWP\skylineapp.UWP.csproj;x86
+D:\Faks\DiplomskiApp\skylineapp\skylineapp.csproj;neutral

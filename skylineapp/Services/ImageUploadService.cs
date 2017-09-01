@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Net.Http;
+using Plugin.Media.Abstractions;
 
-
-namespace skylineapp.Droid
+namespace skylineapp.Services
 {
     public class ImageUploadService
     {
-        private async void UploadFile()
+        public async void UploadFile(MediaFile _mediaFile)
         {
             var content = new MultipartFormDataContent();
 

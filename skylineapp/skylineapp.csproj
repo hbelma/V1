@@ -60,6 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FacebookServices.cs" />
     <Compile Include="Services\GoogleServices.cs" />
+    <Compile Include="Services\ImageUploadService.cs" />
     <Compile Include="TodoList.xaml.cs">
       <DependentUpon>TodoList.xaml</DependentUpon>
     </Compile>

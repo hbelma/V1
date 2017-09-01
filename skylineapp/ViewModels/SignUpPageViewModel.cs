@@ -12,6 +12,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using skylineapp.Services;
 using Xamarin.Forms;
 
 namespace skylineapp.ViewModels
@@ -21,7 +22,7 @@ namespace skylineapp.ViewModels
         public INavigation Navigation { get; set; }
         private User user;
         private MediaFile mediaFile;
-
+        private ImageUploadService imageService;
 
         private ICommand registerCommand;
         public ICommand RegisterCommand { get { return registerCommand; } }
@@ -50,8 +51,8 @@ namespace skylineapp.ViewModels
         {
             this.User = new User();
             this.Navigation = navigation;
-            this.registerCommand = new Command(async () => await RegisterUser(this.User));
             this.addPhotoCommand = new Command(async () => await ChoosePhoto());
+            this.registerCommand = new Command(async () => await RegisterUser(this.User));
         }
 
         public async Task RegisterUser(User user)
@@ -62,6 +63,7 @@ namespace skylineapp.ViewModels
 
             if (useRs.Count == 0 && useRs2.Count == 0)
             {
+                imageService.UploadFile(mediaFile);
                 await userManager.SaveTaskAsync(user);
                 await Navigation.PushAsync(new CategoriesPage());
             }
@@ -93,7 +95,6 @@ namespace skylineapp.ViewModels
                     return;
 
                 user.ProfilePhoto = mediaFile.Path;
-
         }
 
 

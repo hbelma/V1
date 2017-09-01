@@ -40,3 +40,15 @@ C:\Users\belma\Desktop\Skyline\skylineapp\obj\Debug\skylineapp.Views.CategoriesP
 C:\Users\belma\Desktop\Skyline\skylineapp\obj\Debug\skylineapp.dll
 C:\Users\belma\Desktop\Skyline\skylineapp\obj\Debug\skylineapp.pdb
 C:\Users\belma\Desktop\Skyline\skylineapp\obj\Debug\skylineapp.Views.ImageWrapLayoutPage.xaml.g.cs
+D:\Faks\DiplomskiApp\skylineapp\bin\Debug\skylineapp.dll
+D:\Faks\DiplomskiApp\skylineapp\bin\Debug\skylineapp.pdb
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.TodoList.xaml.g.cs
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.Views.MainPage.xaml.g.cs
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.Views.FacebookProfilePage.xaml.g.cs
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.Views.GoogleProfilePage.xaml.g.cs
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.Views.SignUpPage.xaml.g.cs
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.Views.CategoriesPage.xaml.g.cs
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.Views.ImageWrapLayoutPage.xaml.g.cs
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.dll
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.pdb
+D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyReference.cache

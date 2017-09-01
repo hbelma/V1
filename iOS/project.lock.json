@@ -317,7 +317,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     },
@@ -637,7 +637,7 @@
           "System.ComponentModel": "4.3.0",
           "Xam.Plugin.Media": "3.0.1",
           "Xam.Plugins.Settings": "3.0.1",
-          "Xamarin.Forms": "2.3.4.267"
+          "Xamarin.Forms": "2.3.4.270"
         }
       }
     }
@@ -1459,16 +1459,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\belma\\Desktop\\Skyline\\iOS\\skylineapp.iOS.csproj",
+      "projectUniqueName": "D:\\Faks\\DiplomskiApp\\iOS\\skylineapp.iOS.csproj",
       "projectName": "skylineapp.iOS",
-      "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\iOS\\skylineapp.iOS.csproj",
-      "projectJsonPath": "C:\\Users\\belma\\Desktop\\Skyline\\iOS\\project.json",
+      "projectPath": "D:\\Faks\\DiplomskiApp\\iOS\\skylineapp.iOS.csproj",
+      "projectJsonPath": "D:\\Faks\\DiplomskiApp\\iOS\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "C:\\Users\\belma\\Desktop\\Skyline\\skylineapp\\skylineapp.csproj"
+            "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj"
             }
           }
         }
