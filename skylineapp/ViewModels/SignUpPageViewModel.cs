@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using skylineapp.Services;
 using Xamarin.Forms;
+using System.Net.Http;
 
 namespace skylineapp.ViewModels
 {
@@ -63,7 +64,7 @@ namespace skylineapp.ViewModels
 
             if (useRs.Count == 0 && useRs2.Count == 0)
             {
-                imageService.UploadFile(mediaFile);
+                
                 await userManager.SaveTaskAsync(user);
                 await Navigation.PushAsync(new CategoriesPage());
             }
@@ -90,7 +91,21 @@ namespace skylineapp.ViewModels
                 }
 
                 mediaFile = await CrossMedia.Current.PickPhotoAsync();
+                var content = new MultipartFormDataContent();
 
+                content.Add(new StreamContent(mediaFile.GetStream()),
+                    "\"file\"",
+                    $"\"{mediaFile.Path}\"");
+
+                var httpClient = new HttpClient();
+
+                var uploadServiceBaseAddress = "http://localhost:2204/api/Files/Upload";
+
+                var httpResponseMessage = await httpClient.PostAsync(uploadServiceBaseAddress, content);
+
+                var pathForDatabase = await httpResponseMessage.Content.ReadAsStringAsync();
+
+            var ApathForDatabase = "http://uploadtoserver.azurewebsites.net/" + pathForDatabase;
                 if (mediaFile == null)
                     return;
 
