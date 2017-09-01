@@ -1,15 +1,27 @@
-﻿using skylineapp.Models;
+﻿using Plugin.Media;
+using Plugin.Media.Abstractions;
+using skylineapp.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using Xamarin.Forms;
+using skylineapp.Views;
+
 
 namespace skylineapp.ViewModels
 {
     public class CategoriesViewModel : BaseViewModel
     {
+        public INavigation Navigation { get; set; }
+        private MediaFile mediaFile;
+
+        private ICommand addPhotoCommand;
+        public ICommand AddPhotoCommand { get { return addPhotoCommand; } }
         private ObservableCollection<Category> categories;
         public ObservableCollection<Category> Categories
         {
@@ -38,5 +50,40 @@ namespace skylineapp.ViewModels
 
                 };
         }
+
+        public CategoriesViewModel(INavigation navigation)
+        {
+            Navigation.PushAsync(new AddImage());
+        }
+
+        /*public async Task ChoosePhoto()
+        {
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsPickPhotoSupported)
+            {
+                return;
+            }
+
+            mediaFile = await CrossMedia.Current.PickPhotoAsync();
+            var content = new MultipartFormDataContent();
+
+            content.Add(new StreamContent(mediaFile.GetStream()),
+                "\"file\"",
+                $"\"{mediaFile.Path}\"");
+
+            var httpClient = new HttpClient();
+
+            var uploadServiceBaseAddress = "http://uploadtoserver.azurewebsites.net/api/Files/Upload";
+
+            var httpResponseMessage = await httpClient.PostAsync(uploadServiceBaseAddress, content);
+
+            var pathForDatabase = await httpResponseMessage.Content.ReadAsStringAsync();
+            pathForDatabase = pathForDatabase.Substring(2, pathForDatabase.Length - 3);
+            var ApathForDatabase = "http://uploadtoserver.azurewebsites.net/" + pathForDatabase;
+            if (mediaFile == null)
+                return;
+            user.ProfilePhoto = ApathForDatabase;
+        }*/
     }
 }

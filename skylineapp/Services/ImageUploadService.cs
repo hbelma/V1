@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Net.Http;
 using Plugin.Media.Abstractions;
+using System.Threading.Tasks;
 
 namespace skylineapp.Services
 {
     public class ImageUploadService
     {
-        public async void UploadFile(MediaFile _mediaFile)
+        public async Task<string> UploadFile(MediaFile _mediaFile)
         {
             var content = new MultipartFormDataContent();
 
@@ -26,6 +27,8 @@ namespace skylineapp.Services
             var pathForDatabase = await httpResponseMessage.Content.ReadAsStringAsync();
 
             var andrej = "AndrejBelmaVol69";
+
+            return pathForDatabase;
         }
 
     }

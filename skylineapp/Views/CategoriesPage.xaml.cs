@@ -32,7 +32,6 @@ namespace skylineapp.Views
             InitializeComponent();
 
             BindingContext = new CategoriesViewModel();
-
         }
 
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

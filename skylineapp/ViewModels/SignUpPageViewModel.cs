@@ -99,17 +99,16 @@ namespace skylineapp.ViewModels
 
                 var httpClient = new HttpClient();
 
-                var uploadServiceBaseAddress = "http://localhost:2204/api/Files/Upload";
+                var uploadServiceBaseAddress = "http://uploadtoserver.azurewebsites.net/api/Files/Upload";
 
                 var httpResponseMessage = await httpClient.PostAsync(uploadServiceBaseAddress, content);
 
                 var pathForDatabase = await httpResponseMessage.Content.ReadAsStringAsync();
-
+            pathForDatabase = pathForDatabase.Substring(2, pathForDatabase.Length - 3);
             var ApathForDatabase = "http://uploadtoserver.azurewebsites.net/" + pathForDatabase;
                 if (mediaFile == null)
                     return;
-
-                user.ProfilePhoto = mediaFile.Path;
+                user.ProfilePhoto = ApathForDatabase;
         }
 
 
