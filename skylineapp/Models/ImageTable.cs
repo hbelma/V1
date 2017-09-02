@@ -11,11 +11,13 @@ namespace skylineapp.Models
         private string pathToImage;
         private string user;
         private string category;
+        private string desc;
         private string id;
 
         public string User { get => user; set => user = value; }
         public string Category { get => category; set => category = value; }
         public string Id { get => id; set => id = value; }
         public string PathToImage { get => pathToImage; set => pathToImage = value; }
+        public string Desc { get => desc; set => desc = value; }
     }
 }

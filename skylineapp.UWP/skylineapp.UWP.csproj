@@ -107,6 +107,7 @@
     <None Include="skylineapp.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="addphoto.png" />
     <Content Include="animals.jpg" />
     <Content Include="appicon.jpg" />
     <Content Include="hrana1.jpg" />

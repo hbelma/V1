@@ -14,7 +14,7 @@ namespace skylineapp.Layout
         public static readonly BindableProperty ColumnSpacingProperty = BindableProperty.Create("ColumnSpacing", typeof(double), typeof(WrapLayout), 5.0,
             propertyChanged: (bindable, oldvalue, newvalue) => { ((WrapLayout)bindable).InvalidateLayout(); });
 
-        public static readonly BindableProperty RowSpacingProperty = BindableProperty.Create("RowSpacing", typeof(double), typeof(WrapLayout), 5.0,
+        public static readonly BindableProperty RowSpacingProperty = BindableProperty.Create("RowSpacing", typeof(double), typeof(WrapLayout), 2.0,
             propertyChanged: (bindable, oldvalue, newvalue) => { ((WrapLayout)bindable).InvalidateLayout(); });
 
         public double ColumnSpacing

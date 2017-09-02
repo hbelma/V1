@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>8e7309d3-7041-4f07-a733-6dda0e68d58f</PackageIdentityName>
     <PackageIdentityPublisher>CN=belma</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Faks\DiplomskiApp\skylineapp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Faks\BachelorNew\skylineapp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Faks\DiplomskiApp\skylineapp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\Faks\BachelorNew\skylineapp.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Faks\DiplomskiApp\skylineapp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Faks\BachelorNew\skylineapp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\bin\x86\Debug\skylineapp.UWP.exe">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\bin\x86\Debug\skylineapp.UWP.exe">
       <PackagePath>entrypoint\skylineapp.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\Microsoft.Azure.Mobile.Client\4.0.1\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
@@ -412,73 +412,76 @@
     <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\Xamarin.Forms\2.3.4.267\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp\bin\Debug\skylineapp.dll">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp\bin\Debug\skylineapp.dll">
       <PackagePath>skylineapp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\animals.jpg">
-      <PackagePath>animals.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\addphoto.png">
+      <PackagePath>addphoto.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\appicon.jpg">
-      <PackagePath>appicon.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\hrana1.jpg">
-      <PackagePath>hrana1.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\nature.jpg">
-      <PackagePath>nature.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\nauka.jpg">
-      <PackagePath>nauka.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\nocne.jpg">
-      <PackagePath>nocne.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\photoarhitecture.jpg">
-      <PackagePath>photoarhitecture.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\portret.jpg">
-      <PackagePath>portret.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\urban.jpg">
-      <PackagePath>urban.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp\Images\star_outline.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp\Images\star_outline.png">
       <PackagePath>skylineapp\Images\star_outline.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp\Images\star_selected.png">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp\Images\star_selected.png">
       <PackagePath>skylineapp\Images\star_selected.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\bin\x86\Debug\skylineapp.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\animals.jpg">
+      <PackagePath>animals.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\appicon.jpg">
+      <PackagePath>appicon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\hrana1.jpg">
+      <PackagePath>hrana1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\nature.jpg">
+      <PackagePath>nature.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\nauka.jpg">
+      <PackagePath>nauka.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\nocne.jpg">
+      <PackagePath>nocne.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\photoarhitecture.jpg">
+      <PackagePath>photoarhitecture.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\portret.jpg">
+      <PackagePath>portret.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\urban.jpg">
+      <PackagePath>urban.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\bin\x86\Debug\skylineapp.UWP.xr.xml">
       <PackagePath>skylineapp.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
@@ -490,11 +493,11 @@
     <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\Xamarin.Forms\2.3.4.267\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Faks\DiplomskiApp\skylineapp.UWP\bin\x86\Debug\Core\skylineapp.UWP.exe">
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\bin\x86\Debug\Core\skylineapp.UWP.exe">
       <PackagePath>skylineapp.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

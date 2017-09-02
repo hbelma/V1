@@ -3,6 +3,7 @@ using Plugin.Media;
 using Plugin.Media.Abstractions;
 using skylineapp.Helpers;
 using skylineapp.Models;
+using skylineapp.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -23,15 +24,20 @@ namespace skylineapp.Views
         private ImageTable image;
         private ImageManager imageManager = ImageManager.DefaultManager;
         private UserManager userManager = UserManager.DefaultManager;
+        public static String kategorija;
 
-        public ImageWrapLayoutPage()
+        public ImageWrapLayoutPage(String category)
         {
+            kategorija = category;
+            BindingContext = new ImageWrapLayoutViewModel(this.Navigation, kategorija);
+          
             InitializeComponent();
         }
 
         protected override async void OnAppearing()
         {
-            base.OnAppearing();
+            base.OnAppearing();        
+
             var images = await GetImageListAsync();
 
             foreach (var photo in images)
@@ -42,6 +48,7 @@ namespace skylineapp.Views
                 };
 
                 wrapLayout.Children.Add(image);
+                
             }
         }
 
@@ -49,12 +56,12 @@ namespace skylineapp.Views
         {
             
             List<string> terms = new List<string>();
-            ObservableCollection<User> useRs = await userManager.GetUser();
+            ObservableCollection<ImageTable> pics = await imageManager.GetPictureByCategoryh(kategorija);
             using (var client = new HttpClient())
             {
-                for(int i = 0; i < useRs.Count; i++)
+                for(int i = 0; i < pics.Count; i++)
                 {
-                    terms.Add(useRs[i].ProfilePhoto);
+                    terms.Add(pics[i].PathToImage);
                 }
                 string[] test = terms.ToArray();
                 /*var help = string.Join("", test);

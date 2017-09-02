@@ -91,6 +91,7 @@ namespace skylineapp.ViewModels
                 }
 
                 mediaFile = await CrossMedia.Current.PickPhotoAsync();
+
                 var content = new MultipartFormDataContent();
 
                 content.Add(new StreamContent(mediaFile.GetStream()),

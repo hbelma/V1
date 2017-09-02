@@ -27129,10 +27129,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Faks\\DiplomskiApp\\skylineapp.UWP\\skylineapp.UWP.csproj",
+      "projectUniqueName": "D:\\Faks\\BachelorNew\\skylineapp.UWP\\skylineapp.UWP.csproj",
       "projectName": "skylineapp.UWP",
-      "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp.UWP\\skylineapp.UWP.csproj",
-      "outputPath": "D:\\Faks\\DiplomskiApp\\skylineapp.UWP\\obj\\",
+      "projectPath": "D:\\Faks\\BachelorNew\\skylineapp.UWP\\skylineapp.UWP.csproj",
+      "outputPath": "D:\\Faks\\BachelorNew\\skylineapp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "uap10.0.10586"
@@ -27140,8 +27140,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj"
+            "D:\\Faks\\BachelorNew\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "D:\\Faks\\BachelorNew\\skylineapp\\skylineapp.csproj"
             }
           }
         }

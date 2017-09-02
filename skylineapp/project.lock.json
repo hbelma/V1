@@ -5099,10 +5099,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj",
+      "projectUniqueName": "D:\\Faks\\BachelorNew\\skylineapp\\skylineapp.csproj",
       "projectName": "skylineapp",
-      "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj",
-      "projectJsonPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\project.json",
+      "projectPath": "D:\\Faks\\BachelorNew\\skylineapp\\skylineapp.csproj",
+      "projectJsonPath": "D:\\Faks\\BachelorNew\\skylineapp\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

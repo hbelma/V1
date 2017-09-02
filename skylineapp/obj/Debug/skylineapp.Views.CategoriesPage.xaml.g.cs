@@ -11,7 +11,7 @@
 namespace skylineapp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Faks\\DiplomskiApp\\skylineapp\\Views\\CategoriesPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Faks\\BachelorNew\\skylineapp\\Views\\CategoriesPage.xaml")]
     public partial class CategoriesPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

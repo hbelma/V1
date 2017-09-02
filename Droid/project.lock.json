@@ -1532,16 +1532,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Faks\\DiplomskiApp\\Droid\\skylineapp.Droid.csproj",
+      "projectUniqueName": "D:\\Faks\\BachelorNew\\Droid\\skylineapp.Droid.csproj",
       "projectName": "skylineapp.Droid",
-      "projectPath": "D:\\Faks\\DiplomskiApp\\Droid\\skylineapp.Droid.csproj",
-      "projectJsonPath": "D:\\Faks\\DiplomskiApp\\Droid\\project.json",
+      "projectPath": "D:\\Faks\\BachelorNew\\Droid\\skylineapp.Droid.csproj",
+      "projectJsonPath": "D:\\Faks\\BachelorNew\\Droid\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj"
+            "D:\\Faks\\BachelorNew\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "D:\\Faks\\BachelorNew\\skylineapp\\skylineapp.csproj"
             }
           }
         }

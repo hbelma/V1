@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace skylineapp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AddImage : ContentPage
+    public partial class AddImagePage : ContentPage
     {
-        public AddImage()
+        public AddImagePage()
         {
             InitializeComponent();
         }

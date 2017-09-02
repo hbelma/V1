@@ -200,3 +200,8 @@ C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\
 C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineapp.iOS.csprojResolveAssemblyReference.cache
 C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineappiOS.exe
 C:\Users\belma\backupdiplomski\skylineapp_Xamarin_Forms\iOS\obj\iPhoneSimulator\Debug\skylineappiOS.pdb
+D:\Faks\BachelorNew\iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Faks\BachelorNew\iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+D:\Faks\BachelorNew\iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Faks\BachelorNew\iOS\obj\iPhoneSimulator\Debug\optimized\
+D:\Faks\BachelorNew\iOS\obj\iPhoneSimulator\Debug\skylineapp.iOS.csprojResolveAssemblyReference.cache

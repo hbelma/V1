@@ -1459,16 +1459,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Faks\\DiplomskiApp\\iOS\\skylineapp.iOS.csproj",
+      "projectUniqueName": "D:\\Faks\\BachelorNew\\iOS\\skylineapp.iOS.csproj",
       "projectName": "skylineapp.iOS",
-      "projectPath": "D:\\Faks\\DiplomskiApp\\iOS\\skylineapp.iOS.csproj",
-      "projectJsonPath": "D:\\Faks\\DiplomskiApp\\iOS\\project.json",
+      "projectPath": "D:\\Faks\\BachelorNew\\iOS\\skylineapp.iOS.csproj",
+      "projectJsonPath": "D:\\Faks\\BachelorNew\\iOS\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj": {
-              "projectPath": "D:\\Faks\\DiplomskiApp\\skylineapp\\skylineapp.csproj"
+            "D:\\Faks\\BachelorNew\\skylineapp\\skylineapp.csproj": {
+              "projectPath": "D:\\Faks\\BachelorNew\\skylineapp\\skylineapp.csproj"
             }
           }
         }

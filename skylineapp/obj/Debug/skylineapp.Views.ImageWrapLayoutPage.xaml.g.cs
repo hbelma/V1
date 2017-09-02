@@ -11,7 +11,7 @@
 namespace skylineapp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Faks\\DiplomskiApp\\skylineapp\\Views\\ImageWrapLayoutPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Faks\\BachelorNew\\skylineapp\\Views\\ImageWrapLayoutPage.xaml")]
     public partial class ImageWrapLayoutPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

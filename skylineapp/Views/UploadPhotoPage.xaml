@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="skylineapp.Views.UploadPhotoPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="3">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="13"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="15"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Pick photo from gallery" Command="{Binding PickPhotoCommand}"  Grid.Row="1" Grid.Column="1" BackgroundColor="MediumPurple" TextColor="White"></Button>
+
+            <Image Source="{Binding ImageS}"  Aspect="AspectFit" Margin="5, 5, 5, 5" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" WidthRequest="350" HeightRequest="300" Grid.Column="1" Grid.Row="2" />
+            <Entry Text="{Binding ImageT.Desc}" Placeholder="Image description" Grid.Column="1" Grid.Row="3"/>
+
+            <Button Text="Upload photo" Command="{Binding UploadPhotoCommand}"  Grid.Row="4" Grid.Column="1" BackgroundColor="MediumSeaGreen" TextColor="White"></Button>
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

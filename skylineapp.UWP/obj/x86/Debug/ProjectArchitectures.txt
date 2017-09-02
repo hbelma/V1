@@ -1,2 +1,2 @@
-D:\Faks\DiplomskiApp\skylineapp.UWP\skylineapp.UWP.csproj;x86
-D:\Faks\DiplomskiApp\skylineapp\skylineapp.csproj;neutral
+D:\Faks\BachelorNew\skylineapp.UWP\skylineapp.UWP.csproj;x86
+D:\Faks\BachelorNew\skylineapp\skylineapp.csproj;neutral

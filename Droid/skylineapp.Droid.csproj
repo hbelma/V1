@@ -118,5 +118,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\portret.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\addphoto.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
