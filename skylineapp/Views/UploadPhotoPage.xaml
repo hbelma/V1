@@ -23,7 +23,7 @@
 
             <Button Text="Pick photo from gallery" Command="{Binding PickPhotoCommand}"  Grid.Row="1" Grid.Column="1" BackgroundColor="MediumPurple" TextColor="White"></Button>
 
-            <Image Source="{Binding ImageS}"  Aspect="AspectFit" Margin="5, 5, 5, 5" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" WidthRequest="350" HeightRequest="300" Grid.Column="1" Grid.Row="2" />
+            <Image Source="{Binding ImageT.PathToImage}"  Aspect="AspectFit" Margin="5, 5, 5, 5" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" WidthRequest="350" HeightRequest="300" Grid.Column="1" Grid.Row="2" />
             <Entry Text="{Binding ImageT.Desc}" Placeholder="Image description" Grid.Column="1" Grid.Row="3"/>
 
             <Button Text="Upload photo" Command="{Binding UploadPhotoCommand}"  Grid.Row="4" Grid.Column="1" BackgroundColor="MediumSeaGreen" TextColor="White"></Button>

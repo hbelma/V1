@@ -75,8 +75,9 @@ D:\Faks\BachelorNew\Droid\obj\Debug\res\drawable\photoarhitecture.jpg
 D:\Faks\BachelorNew\Droid\obj\Debug\res\drawable\portret.jpg
 D:\Faks\BachelorNew\Droid\obj\Debug\R.cs.flag
 D:\Faks\BachelorNew\Droid\obj\Debug\uploadflags.txt
-D:\Faks\BachelorNew\Droid\bin\Debug\skylineapp.dll.mdb
 D:\Faks\BachelorNew\Droid\obj\Debug\skylineapp.Droid.csprojResolveAssemblyReference.cache
+D:\Faks\BachelorNew\Droid\obj\Debug\res\drawable\addphoto.png
+D:\Faks\BachelorNew\Droid\bin\Debug\skylineapp.dll.mdb
 D:\Faks\BachelorNew\Droid\bin\Debug\FormsViewGroup.dll.mdb
 D:\Faks\BachelorNew\Droid\bin\Debug\Plugin.Media.dll.mdb
 D:\Faks\BachelorNew\Droid\bin\Debug\Plugin.Permissions.dll.mdb
@@ -96,4 +97,3 @@ D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\skylineapp.Droid.dll.mdb
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-D:\Faks\BachelorNew\Droid\obj\Debug\res\drawable\addphoto.png

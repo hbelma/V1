@@ -80,27 +80,6 @@ namespace skylineapp.Helpers
         return null;
     }
 
-    /*public async Task<ObservableCollection<User>> GetUserByEmailAsync(string email)
-    {
-        try
-        {
-            IEnumerable<User> users = await userTable
-                .Where(user => user.Email == email)
-                .ToEnumerableAsync();
-
-            return new ObservableCollection<User>(users);
-        }
-        catch (MobileServiceInvalidOperationException msioe)
-        {
-            Debug.WriteLine(@"Invalid sync operation: {0}", msioe.Message);
-        }
-        catch (Exception e)
-        {
-            Debug.WriteLine(@"Sync error: {0}", e.Message);
-        }
-        return null;
-    }*/
-
 
 }
 }

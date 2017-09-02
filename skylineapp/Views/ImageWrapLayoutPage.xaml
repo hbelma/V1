@@ -8,8 +8,42 @@
 
     </ContentPage.ToolbarItems>
 
-    <ScrollView Margin="0,20,0,20">
-        <local:WrapLayout x:Name="wrapLayout"/>
-        </ScrollView>
+    <ScrollView>
+        <ListView  x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Images}" >
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <Grid RowSpacing="3">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="3"/>
+
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="15"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Margin="5, 5, 5, 5" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="1" Source="{Binding PathToImage}" />
+                            <Label Text="{Binding Desc}" x:Name="labeltitle" Margin="5, 0, 5, 0"  FontAttributes="Bold"  Grid.Column="1" Grid.Row="2" FontSize="Medium" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" />
+
+                        </Grid>
+
+
+                    </ViewCell>
+                </DataTemplate>
+
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </ScrollView>
 
 </ContentPage>

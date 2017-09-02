@@ -15,12 +15,12 @@ namespace skylineapp.Views {
     public partial class ImageWrapLayoutPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::skylineapp.Layout.WrapLayout wrapLayout;
+        private global::Xamarin.Forms.ListView listView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ImageWrapLayoutPage));
-            wrapLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::skylineapp.Layout.WrapLayout>(this, "wrapLayout");
+            listView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listView");
         }
     }
 }

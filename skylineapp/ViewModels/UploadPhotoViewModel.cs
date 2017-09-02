@@ -16,28 +16,18 @@ using Xamarin.Forms;
 
 namespace skylineapp.ViewModels
 {
-    public class UploadPhotoViewModel
+    public class UploadPhotoViewModel : BaseViewModel
     {
         MediaFile mediaFile;
         ImageTable imageT;
         ImageManager imageManager = ImageManager.DefaultManager;
         INavigation navigation;
 
-        private ImageSource _imageSource = "addphoto.png";
-
-        public ImageSource ImageS
-        {
-            get { return _imageSource; }
-            set { _imageSource = value; }
-        }
-
         private ICommand pickPhotoCommand;
         public ICommand PickPhotoCommand { get { return pickPhotoCommand; } }
 
         private ICommand uploadPhotoCommand;
         public ICommand UploadPhotoCommand { get { return uploadPhotoCommand; } }
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public ImageTable ImageT
         {
@@ -48,16 +38,14 @@ namespace skylineapp.ViewModels
                 OnPropertyChanged("ImageT");
             }
         }
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = "") => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-
 
         public UploadPhotoViewModel(INavigation nav, String cat) {
+
             imageT = new ImageTable();
             ImageT.Category = cat;
             this.Navigation = nav;
             pickPhotoCommand = new Command(async() => await PickPhoto());
             uploadPhotoCommand = new Command(async () => await SavePhoto());
-
         }
 
         private async Task SavePhoto()
@@ -87,12 +75,7 @@ namespace skylineapp.ViewModels
             if (mediaFile == null)
                 return;
 
-            this.ImageS = ImageSource.FromStream(() =>
-            {
-                var stream = mediaFile.GetStream();
-                mediaFile.Dispose();
-                return stream;
-            });
+            ImageT.PathToImage = mediaFile.Path;
 
         }
 

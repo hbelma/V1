@@ -52,7 +52,6 @@ D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.Views.ImageWrapLayoutPage.x
 D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.dll
 D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.pdb
 D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyReference.cache
-D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyReference.cache
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.TodoList.xaml.g.cs
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.MainPage.xaml.g.cs
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.FacebookProfilePage.xaml.g.cs
@@ -65,3 +64,4 @@ D:\Faks\BachelorNew\skylineapp\bin\Debug\skylineapp.pdb
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.dll
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.pdb
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.UploadPhotoPage.xaml.g.cs
+D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyReference.cache
