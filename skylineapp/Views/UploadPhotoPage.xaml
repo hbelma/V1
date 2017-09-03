@@ -3,32 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="skylineapp.Views.UploadPhotoPage">
     <ContentPage.Content>
-        <Grid RowSpacing="3">
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="10"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="13"/>
+        <ScrollView>
+            <Grid RowSpacing="3">
 
-            </Grid.RowDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="15"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="15"/>
-            </Grid.ColumnDefinitions>
+                    <RowDefinition Height="13"/>
 
-            <Button Text="Pick photo from gallery" Command="{Binding PickPhotoCommand}"  Grid.Row="1" Grid.Column="1" BackgroundColor="MediumPurple" TextColor="White"></Button>
+                </Grid.RowDefinitions>
 
-            <Image Source="{Binding ImgSrc}"  Aspect="AspectFit" Margin="5, 5, 5, 5" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Grid.Column="1" Grid.Row="2" />
-            <Entry Text="{Binding ImageT.Desc}" Placeholder="Image description" Grid.Column="1" Grid.Row="3"/>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="15"/>
+                </Grid.ColumnDefinitions>
 
-            <Button Text="Upload photo" Command="{Binding UploadPhotoCommand}"  Grid.Row="4" Grid.Column="1" BackgroundColor="MediumSeaGreen" TextColor="White"></Button>
+                <Button Text="Pick photo from gallery" Command="{Binding PickPhotoCommand}"  Grid.Row="1" Grid.Column="1" BackgroundColor="MediumPurple" TextColor="White"></Button>
+
+                <Image Source="{Binding ImgSrc}"  Aspect="AspectFit" Margin="5, 5, 5, 5" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Grid.Column="1" Grid.Row="2" />
+                <Label Text="{Binding ImageT.Category}" Grid.Column="1" Grid.Row="3"/>
+                <Entry Text="{Binding ImageT.Title}" Placeholder="Title" Grid.Column="1" Grid.Row="4"/>
+                <Entry Text="{Binding ImageT.Desc}" Placeholder="Image description" Grid.Column="1" Grid.Row="5"/>
+
+                <Button Text="Upload photo" Command="{Binding UploadPhotoCommand}"  Grid.Row="6" Grid.Column="1" BackgroundColor="MediumSeaGreen" TextColor="White"></Button>
 
 
-        </Grid>
+            </Grid>
+        </ScrollView>
+      
     </ContentPage.Content>
 </ContentPage>
