@@ -18,12 +18,11 @@ using System.Net.Http;
 
 namespace skylineapp.ViewModels
 {
-    public class SignUpPageViewModel
+    public class SignUpPageViewModel : BaseViewModel
     {
         public INavigation Navigation { get; set; }
         private User user;
         private MediaFile mediaFile;
-        private ImageUploadService imageService;
 
         private ICommand registerCommand;
         public ICommand RegisterCommand { get { return registerCommand; } }
@@ -31,10 +30,11 @@ namespace skylineapp.ViewModels
         private ICommand addPhotoCommand;
         public ICommand AddPhotoCommand { get { return addPhotoCommand; } }
 
+        private ICommand takePhotoCommand;
+        public ICommand TakePhotoCommand { get { return takePhotoCommand; } }
 
         private UserManager userManager = UserManager.DefaultManager;
 
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public User User
         {
@@ -45,73 +45,94 @@ namespace skylineapp.ViewModels
                 OnPropertyChanged("User");
             }
         }
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = "") => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        private bool enabled;
+        public bool Enabled
+        {
+            get => enabled;
+            set
+            {
+                enabled = value;
+                OnPropertyChanged("Enabled");
+            }
+        }
 
 
         public SignUpPageViewModel(INavigation navigation)
         {
+            enabled = false;
             this.User = new User();
             this.Navigation = navigation;
             this.addPhotoCommand = new Command(async () => await ChoosePhoto());
+            this.takePhotoCommand = new Command(async () => await TakePhoto());
             this.registerCommand = new Command(async () => await RegisterUser(this.User));
         }
 
         public async Task RegisterUser(User user)
         {
-            ObservableCollection<User> useRs = await userManager.GetUserByUsernameAsync(user.Username);
-            ObservableCollection<User> useRs2 = await userManager.GetUserByEmailAsync(user.Email);
-
-
-            if (useRs.Count == 0 && useRs2.Count == 0)
-            {
-                
+            
                 await userManager.SaveTaskAsync(user);
                 await Navigation.PushAsync(new CategoriesPage());
-            }
-            else
-            {
-                MessagingCenter.Send(this, "MyAlertName", "My actual alert content, or an object if you want");
-            }
-
         }
 
-        private bool RegisterUserInFunction()
-        {
-
-            return true;
-        }
 
         public async Task ChoosePhoto()
         {
-                await CrossMedia.Current.Initialize();
+            await CrossMedia.Current.Initialize();
 
-                if (!CrossMedia.Current.IsPickPhotoSupported)
-                {
-                    return;
-                }
+            if (!CrossMedia.Current.IsPickPhotoSupported)
+                 return;
+            
+            mediaFile = await CrossMedia.Current.PickPhotoAsync();
 
-                mediaFile = await CrossMedia.Current.PickPhotoAsync();
+            if(mediaFile == null)
+            {
+                user.ProfilePhoto = "user.png";
+                return;
+            }
 
-                var content = new MultipartFormDataContent();
+            var content = new MultipartFormDataContent();
+            content.Add(new StreamContent(mediaFile.GetStream()), "\"file\"", $"\"{mediaFile.Path}\"");
+            var httpClient = new HttpClient();
+            var uploadServiceBaseAddress = "http://skylineappServerV2.azurewebsites.net/api/Files/Upload";
 
-                content.Add(new StreamContent(mediaFile.GetStream()),
-                    "\"file\"",
-                    $"\"{mediaFile.Path}\"");
-
-                var httpClient = new HttpClient();
-
-                var uploadServiceBaseAddress = "http://uploadtoserver.azurewebsites.net/api/Files/Upload";
-
-                var httpResponseMessage = await httpClient.PostAsync(uploadServiceBaseAddress, content);
-
-                var pathForDatabase = await httpResponseMessage.Content.ReadAsStringAsync();
+            var httpResponseMessage = await httpClient.PostAsync(uploadServiceBaseAddress, content);
+            var pathForDatabase = await httpResponseMessage.Content.ReadAsStringAsync();
             pathForDatabase = pathForDatabase.Substring(2, pathForDatabase.Length - 3);
-            var ApathForDatabase = "http://uploadtoserver.azurewebsites.net/" + pathForDatabase;
-                if (mediaFile == null)
-                    return;
-                user.ProfilePhoto = ApathForDatabase;
+            var ApathForDatabase = "http://skylineappServerV2.azurewebsites.net/" + pathForDatabase;
+
+            user.ProfilePhoto = ApathForDatabase;
+
+         
         }
 
+        public async Task TakePhoto()
+        {
+            await CrossMedia.Current.Initialize();
 
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+                return;
+
+            var mediafile = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
+            {
+                Directory = "Sample",
+                Name = "test.jpg"
+            });
+
+            if (mediaFile == null)
+                return;
+
+            var content = new MultipartFormDataContent();
+            content.Add(new StreamContent(mediaFile.GetStream()), "\"file\"", $"\"{mediaFile.Path}\"");
+            var httpClient = new HttpClient();
+            var uploadServiceBaseAddress = "http://skylineappServerV2.azurewebsites.net/api/Files/Upload";
+
+            var httpResponseMessage = await httpClient.PostAsync(uploadServiceBaseAddress, content);
+            var pathForDatabase = await httpResponseMessage.Content.ReadAsStringAsync();
+            pathForDatabase = pathForDatabase.Substring(2, pathForDatabase.Length - 3);
+            var ApathForDatabase = "http://skylineappServerV2.azurewebsites.net/" + pathForDatabase;
+
+            user.ProfilePhoto = ApathForDatabase;
+        }
     }
 }

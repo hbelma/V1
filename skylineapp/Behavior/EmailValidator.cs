@@ -1,5 +1,8 @@
-﻿using System;
+﻿using skylineapp.Helpers;
+using skylineapp.Models;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -17,6 +20,9 @@ namespace skylineapp.Behavior
         static readonly BindablePropertyKey IsValidPropertyKey = BindableProperty.CreateReadOnly("IsValid", typeof(bool), typeof(NumberValidator), false);
 
         public static readonly BindableProperty IsValidProperty = IsValidPropertyKey.BindableProperty;
+        private UserManager userManager = UserManager.DefaultManager;
+
+        ObservableCollection<User> users = new ObservableCollection<User>();
 
         public bool IsValid
         {
@@ -30,9 +36,10 @@ namespace skylineapp.Behavior
         }
 
 
-        void HandleTextChanged(object sender, TextChangedEventArgs e)
+       async void HandleTextChanged(object sender, TextChangedEventArgs e)
         {
-            IsValid = (Regex.IsMatch(e.NewTextValue, emailRegex, RegexOptions.IgnoreCase, TimeSpan.FromMilliseconds(250)));
+            users = await userManager.GetUserByEmailAsync(e.NewTextValue);
+            IsValid = (Regex.IsMatch(e.NewTextValue, emailRegex, RegexOptions.IgnoreCase, TimeSpan.FromMilliseconds(250))) && users.Count == 0;
             ((Entry)sender).TextColor = IsValid ? Color.Default : Color.Red;
         }
 

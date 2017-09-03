@@ -2,6 +2,10 @@ skylineapp.Droid.MainActivity, skylineapp.Droid;md5d180510fa1d0259771ca1f2664d75
 skylineapp.Droid.MainActivity, skylineapp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d180510fa1d0259771ca1f2664d75a59.MainActivity
 skylineapp.Droid.MainActivity;md5d180510fa1d0259771ca1f2664d75a59.MainActivity
 skylineapp.droid.MainActivity;md5d180510fa1d0259771ca1f2664d75a59.MainActivity
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin.Android;md5f99670a967ca5f40091da02b64448d9f.ImageCircleRenderer
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin.Android, Version=1.8.1.0, Culture=neutral, PublicKeyToken=null;md5f99670a967ca5f40091da02b64448d9f.ImageCircleRenderer
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer;md5f99670a967ca5f40091da02b64448d9f.ImageCircleRenderer
+imagecircle.forms.plugin.droid.ImageCircleRenderer;md5f99670a967ca5f40091da02b64448d9f.ImageCircleRenderer
 Android.Support.CustomTabs.Chromium.SharedUtilities._MobileServices.CustomTabActivityHelper, Microsoft.Azure.Mobile.Client;md54c4b48a882a4c6b363ccb67bdb21d5b2.CustomTabActivityHelper
 Android.Support.CustomTabs.Chromium.SharedUtilities._MobileServices.CustomTabActivityHelper, Microsoft.Azure.Mobile.Client, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35;md54c4b48a882a4c6b363ccb67bdb21d5b2.CustomTabActivityHelper
 Android.Support.CustomTabs.Chromium.SharedUtilities._MobileServices.CustomTabActivityHelper;md54c4b48a882a4c6b363ccb67bdb21d5b2.CustomTabActivityHelper

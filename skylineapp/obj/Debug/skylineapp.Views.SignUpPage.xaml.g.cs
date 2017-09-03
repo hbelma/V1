@@ -78,6 +78,12 @@ namespace skylineapp.Views {
         private global::Xamarin.Forms.Image ageSuccessErrorImage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker gender;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::skylineapp.Behavior.PickerBehavior genderValidator;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SignUpPage));
             firstname = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "firstname");
@@ -101,6 +107,8 @@ namespace skylineapp.Views {
             age = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "age");
             ageValidator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::skylineapp.Behavior.NumberValidator>(this, "ageValidator");
             ageSuccessErrorImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "ageSuccessErrorImage");
+            gender = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "gender");
+            genderValidator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::skylineapp.Behavior.PickerBehavior>(this, "genderValidator");
         }
     }
 }

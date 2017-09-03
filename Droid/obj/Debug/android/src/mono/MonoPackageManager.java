@@ -100,6 +100,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "skylineapp.Droid.dll" comes first in this list. */
 		"skylineapp.Droid.dll",
 		"FormsViewGroup.dll",
+		"ImageCircle.Forms.Plugin.Abstractions.dll",
+		"ImageCircle.Forms.Plugin.Android.dll",
 		"Microsoft.Azure.Mobile.Client.dll",
 		"Newtonsoft.Json.dll",
 		"PCLCrypto.dll",

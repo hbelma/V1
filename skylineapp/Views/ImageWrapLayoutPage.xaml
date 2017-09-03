@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:skylineapp.Layout"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              x:Class="skylineapp.Views.ImageWrapLayoutPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Icon="addphoto.png" Command="{Binding AddPhotoCommand}"/>
@@ -15,24 +16,42 @@
                 <DataTemplate>
                     <ViewCell>
 
-                        <Grid RowSpacing="3">
+                        <Grid RowSpacing="1">
 
                             <Grid.RowDefinitions>
+                                <RowDefinition Height="4"/>
+                                <RowDefinition Height="37"/>
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="3"/>
-
+                                <RowDefinition Height="1"/>
                             </Grid.RowDefinitions>
 
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="6"/>
+                                <ColumnDefinition Width="30"/>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="15"/>
                             </Grid.ColumnDefinitions>
 
-                            <Image Margin="5, 5, 5, 5" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="1" Source="{Binding PathToImage}" />
-                            <Label Text="{Binding Desc}" x:Name="labeltitle" Margin="5, 0, 5, 0"  FontAttributes="Bold"  Grid.Column="1" Grid.Row="2" FontSize="Medium" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" />
+                            <controls:CircleImage Source="{Binding UserProfilePhoto}" Aspect="AspectFill" Grid.Row="1" Grid.Column="1">
+                                <controls:CircleImage.WidthRequest>
+                                    <OnPlatform x:TypeArguments="x:Double">
+                                        <On Platform="Android, iOS">35</On>
+                                        <On Platform="WinPhone">35</On>
+                                    </OnPlatform>
+                                </controls:CircleImage.WidthRequest>
+                                <controls:CircleImage.HeightRequest>
+                                    <OnPlatform x:TypeArguments="x:Double">
+                                        <On Platform="Android, iOS">35</On>
+                                        <On Platform="WinPhone">35</On>
+                                    </OnPlatform>
+                                </controls:CircleImage.HeightRequest>
+                            </controls:CircleImage>
+
+                            <Label Text="{Binding User}" Margin="5, 0, 5, 0"  FontAttributes="Bold"  Grid.Column="2"  Grid.Row="1" FontSize="Medium" VerticalTextAlignment="Center"  HorizontalTextAlignment="Start" />
+                            <Image Margin="5, 5, 5, 5" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.ColumnSpan="4"  Grid.Row="2" Source="{Binding PathToImage}" />
+                            <Label Text="{Binding Desc}"  Margin="5, 0, 5, 0"  FontAttributes="Bold"  Grid.ColumnSpan="4" Grid.Row="3" FontSize="Medium" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" />
 
                         </Grid>
 

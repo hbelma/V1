@@ -1,5 +1,7 @@
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\skylineapp.Droid.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\FormsViewGroup.dll
+D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\ImageCircle.Forms.Plugin.Abstractions.dll
+D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\ImageCircle.Forms.Plugin.Android.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\Microsoft.Azure.Mobile.Client.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\PCLCrypto.dll
@@ -45,10 +47,11 @@ D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Net.Http.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Xml.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\mscorlib.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\skylineapp.dll
-D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
-D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Runtime.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
+D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.IO.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
@@ -74,7 +77,6 @@ D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\Mono.CSharp.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Numerics.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Net.Primitives.dll
-D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.ComponentModel.dll
 D:\Faks\BachelorNew\Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll

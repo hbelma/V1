@@ -181,10 +181,11 @@
     </ContentPage.Padding>
 
 
-    <StackLayout>
+    <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="15" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
@@ -201,8 +202,8 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="20" />
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="25" />
-                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="30" />
+                <ColumnDefinition Width="20"/>
             </Grid.ColumnDefinitions>
 
 
@@ -274,7 +275,7 @@
                                 Converter={StaticResource boolToStyleImage}}"/>
 
 
-            <Entry  x:Name="age" Text="{Binding User.Age, StringFormat='{0}', Mode=TwoWay}" Grid.Row="7" Grid.Column="1" 
+            <Entry  x:Name="age" Text="{Binding User.Age, Mode=TwoWay}" Grid.Row="7" Grid.Column="1" 
            Placeholder="Age" Margin="2, 2, 2, 2" >
                 <Entry.Behaviors>
                     <local:NumberValidator IsValid="{Binding IsValid, Mode=TwoWay}" x:Name="ageValidator" />
@@ -286,9 +287,29 @@
                                 Path=IsValid, 
                                 Converter={StaticResource boolToStyleImage}}"/>
 
-            <Button Text="Add photo" TextColor="White" Grid.Row="8" Grid.Column="1" BackgroundColor="Pink" Margin="20, 0, 20, 0" Command="{Binding AddPhotoCommand}" />
+            <Picker Title="Gender" x:Name="gender" SelectedItem="{Binding User.Gender, Mode=TwoWay}" Grid.Row="8" Grid.Column="1">
+                <Picker.Behaviors>
+                    <local:PickerBehavior SelectedItem="{Binding SelectedItem, Mode=TwoWay}" x:Name="genderValidator" />
+                </Picker.Behaviors>
+                <Picker.Items>
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+                    <x:String>Other</x:String>
+                </Picker.Items>
 
-            <Button Text="Submit" TextColor="White" BackgroundColor="#4CAF50" Grid.Row="9" Grid.ColumnSpan="2" Margin="20, 0, 20, 0" Command="{Binding RegisterCommand}" />
+            </Picker>
+
+            <Button Text="Choose photo or take one ->" TextColor="White" Grid.Row="9" Grid.Column="0"  Grid.ColumnSpan="2" BackgroundColor="Gray" Margin="20, 0, 0, 0"  Command="{Binding AddPhotoCommand}" />
+
+            <Image Source="addphoto.png" Grid.Row="9" Grid.Column="2" WidthRequest="25" HeightRequest="25">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Command="{Binding TakePhotoCommand}"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Button Text="Submit" TextColor="White" BackgroundColor="#4CAF50" Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="4" Margin="20, 0, 20, 0" IsEnabled="{Binding Enabled}" Command="{Binding RegisterCommand}"  />
 
 
 
@@ -296,5 +317,5 @@
 
 
 
-    </StackLayout>
+    </ScrollView>
 </ContentPage>

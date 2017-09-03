@@ -11,6 +11,7 @@ using Microsoft.WindowsAzure.MobileServices;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
+using ImageCircle.Forms.Plugin.iOS;
 
 namespace skylineapp.iOS
 {
@@ -24,6 +25,7 @@ namespace skylineapp.iOS
 
 			// Initialize Xamarin Forms
 			Forms.Init();
+            ImageCircleRenderer.Init();
 
 			LoadApplication(new App ());
 

@@ -5,6 +5,7 @@ using skylineapp.Models;
 using skylineapp.Views;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Net.Http;
@@ -21,6 +22,8 @@ namespace skylineapp.ViewModels
         MediaFile mediaFile;
         ImageTable imageT;
         ImageManager imageManager = ImageManager.DefaultManager;
+        UserManager userManager = UserManager.DefaultManager;
+        public string imgSrc;
         INavigation navigation;
 
         private ICommand pickPhotoCommand;
@@ -36,6 +39,20 @@ namespace skylineapp.ViewModels
             {
                 imageT = value;
                 OnPropertyChanged("ImageT");
+                OnPropertyChanged("ImgSrc");
+            }
+        }
+
+        public string ImgSrc
+        {
+            get
+            {
+                return imgSrc; 
+            }
+            set
+            {
+                imgSrc = value;
+                OnPropertyChanged("ImgSrc");
             }
         }
 
@@ -57,9 +74,16 @@ namespace skylineapp.ViewModels
             {
                 await UploadPhoto(mediaFile);
                 ImageT.User = Settings.UserName;
+                ImageT.UserProfilePhoto = await setUserProfilePhoto();
                 await imageManager.SaveTaskAsync(ImageT);
                 await Navigation.PushAsync(new ImageWrapLayoutPage(ImageT.Category));
             }
+        }
+
+        private async Task<String> setUserProfilePhoto()
+        {
+            ObservableCollection<User> users = await userManager.GetUserByUsernameAsync(Settings.UserName);
+            return users[0].ProfilePhoto;
         }
 
         private async Task PickPhoto()
@@ -75,7 +99,7 @@ namespace skylineapp.ViewModels
             if (mediaFile == null)
                 return;
 
-            ImageT.PathToImage = mediaFile.Path;
+            ImgSrc = mediaFile.Path;
 
         }
 
@@ -87,12 +111,12 @@ namespace skylineapp.ViewModels
             var content = new MultipartFormDataContent();
             content.Add(new StreamContent(mediaFile.GetStream()), "\"file\"", $"\"{mediaFile.Path}\"");
             var httpClient = new HttpClient();
-            var uploadServiceBaseAddress = "http://uploadtoserver.azurewebsites.net/api/Files/Upload";
+            var uploadServiceBaseAddress = "http://skylineappServerV2.azurewebsites.net/api/Files/Upload";
 
             var httpResponseMessage = await httpClient.PostAsync(uploadServiceBaseAddress, content);
             var pathForDatabase = await httpResponseMessage.Content.ReadAsStringAsync();
             pathForDatabase = pathForDatabase.Substring(2, pathForDatabase.Length - 3);
-            var ApathForDatabase = "http://uploadtoserver.azurewebsites.net/" + pathForDatabase;
+            var ApathForDatabase = "http://skylineappServerV2.azurewebsites.net/" + pathForDatabase;
 
             ImageT.PathToImage = ApathForDatabase;
 

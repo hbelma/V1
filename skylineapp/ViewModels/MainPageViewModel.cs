@@ -25,9 +25,6 @@ namespace skylineapp.ViewModels
         private ICommand signUpCommand;
         public ICommand SignUpCommand { get { return signUpCommand; } }
 
-        private ICommand loginWithFBCommand;
-        public ICommand LoginWithFBCommand { get { return loginWithFBCommand; } }
-
         private UserManager userManager = UserManager.DefaultManager;
 
         public MainPageViewModel(INavigation navigation)
@@ -35,7 +32,7 @@ namespace skylineapp.ViewModels
             this.Navigation = navigation;
             signUpCommand = new Command(async () => await GoToSignUpPage());
             loginCommand = new Command(async () => await LoginUser());
-        }
+        }      
 
         public async Task GoToSignUpPage()
         {
@@ -64,19 +61,25 @@ namespace skylineapp.ViewModels
         {
             var facebookServices = new FacebookServices();
             FacebookProfile = await facebookServices.GetFacebookProfileAsync(accessToken);
+
             User user = new User();
-            user.Email = FacebookProfile.Id;
-            /* Add moew user info*/
-            ObservableCollection<User> userIsInSystem = await userManager.GetUserByEmailAsync(FacebookProfile.Id);
+
+            user.FirstName = FacebookProfile.FirstName;
+            user.LastName = FacebookProfile.LastName;
+            user.Username = FacebookProfile.Name;
+            user.ProfilePhoto = FacebookProfile.Picture.Data.Url;
+            user.Gender = FacebookProfile.Gender;
+            user.Age = FacebookProfile.AgeRange.Min;
+
+            ObservableCollection<User> userIsInSystem = await userManager.GetUserByUsernameAsync(user.Username);
 
             if (userIsInSystem.Count == 0)
             {
+                Settings.UserName = user.Username;
+                Settings.UserPassword = "FbUser";
                 await userManager.SaveTaskAsync(user);
             }
-            else
-            {   /*Get usr info that is to say user ID which is unique usrIsInSystem[0].Id*/
-
-            }
+      
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

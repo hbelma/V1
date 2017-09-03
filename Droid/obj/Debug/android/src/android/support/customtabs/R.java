@@ -2569,10 +2569,11 @@ containing a value of this type.
         public static int nature=0x7f0200a6;
         public static int nauka=0x7f0200a7;
         public static int nocne=0x7f0200a8;
-        public static int notification_template_icon_bg=0x7f0200ac;
+        public static int notification_template_icon_bg=0x7f0200ad;
         public static int photoarhitecture=0x7f0200a9;
         public static int portret=0x7f0200aa;
         public static int urban=0x7f0200ab;
+        public static int user=0x7f0200ac;
     }
     public static final class id {
         public static int action0=0x7f08008e;

@@ -101,6 +101,11 @@ namespace skylineapp.Helpers
             return null;
         }
 
+        internal Task<ObservableCollection<User>> GetUserByUsername(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<ObservableCollection<User>> GetUser()
         {
             try

@@ -42,11 +42,12 @@ namespace skylineapp.Views
         private async void WebViewOnNavigated(object sender, WebNavigatedEventArgs e)
         {
             ///Access URL because URL contains informations about AccessToken
-            var accessToken = ExtractAccessTokenFromUrl(e.Url);
+            string accessToken = ExtractAccessTokenFromUrl(e.Url);
             if (accessToken != "")
             {
                 var vm = new MainPageViewModel(this.Navigation);
                 await vm.SetFacebookUserProfileAsync(accessToken);
+                await Navigation.PushAsync(new MainPage());
             }
         }
 

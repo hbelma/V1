@@ -17,6 +17,7 @@ using Microsoft.WindowsAzure.MobileServices;
 
 using Windows.UI.Xaml.Navigation;
 using Plugin.Media;
+using ImageCircle.Forms.Plugin.UWP;
 
 namespace skylineapp.UWP
 {
@@ -56,6 +57,7 @@ namespace skylineapp.UWP
                 await CrossMedia.Current.Initialize();
 
                 Xamarin.Forms.Forms.Init(e);
+                ImageCircleRenderer.Init();
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

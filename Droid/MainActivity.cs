@@ -8,6 +8,7 @@ using Android.OS;
 using Microsoft.WindowsAzure.MobileServices;
 using Plugin.Permissions;
 using Plugin.Media;
+using ImageCircle.Forms.Plugin.Droid;
 
 namespace skylineapp.Droid
 {
@@ -29,6 +30,7 @@ namespace skylineapp.Droid
             await CrossMedia.Current.Initialize();
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            ImageCircleRenderer.Init();
             LoadApplication(new App());
         }
 

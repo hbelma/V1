@@ -37,6 +37,7 @@
     <Compile Include="Behavior\ConfirmPasswordValidator.cs" />
     <Compile Include="Behavior\EmailValidator.cs" />
     <Compile Include="Behavior\FirstNameValidator.cs" />
+    <Compile Include="Behavior\LastNameValidator.cs" />
     <Compile Include="Behavior\MaxLengthValidator.cs" />
     <Compile Include="Behavior\NumberValidator.cs" />
     <Compile Include="Behavior\PasswordValidator.cs" />
@@ -63,12 +64,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FacebookServices.cs" />
     <Compile Include="Services\ImageUploadService.cs" />
-    <Compile Include="TodoList.xaml.cs">
-      <DependentUpon>TodoList.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Constants.cs" />
-    <Compile Include="TodoItem.cs" />
-    <Compile Include="TodoItemManager.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\CategoriesViewModel.cs" />
     <Compile Include="ViewModels\FacebookViewModel.cs" />
@@ -103,11 +99,6 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="TodoList.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Views\MainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
@@ -127,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\error.png" />
+    <EmbeddedResource Include="Images\addphoto.png" />
     <Content Include="Images\star_outline.png" />
     <Content Include="Images\star_selected.png" />
     <EmbeddedResource Include="Images\success.png" />

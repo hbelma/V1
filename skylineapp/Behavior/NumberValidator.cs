@@ -27,8 +27,8 @@ namespace skylineapp.Behavior
         private void bindable_TextChanged(object sender, TextChangedEventArgs e)
         {
             double result;
-            IsValid = double.TryParse(e.NewTextValue, out result);
-            ((Entry)sender).TextColor = IsValid ? Color.Default : Color.Red;
+            IsValid = double.TryParse(e.NewTextValue, out result) && result > 15;
+            ((Entry)sender).TextColor = IsValid ? Color.Default : Color.Black;
 
         }
 

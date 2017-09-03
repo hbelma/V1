@@ -1,4 +1,5 @@
-﻿using skylineapp.Interfaces;
+﻿using skylineapp.Behavior;
+using skylineapp.Interfaces;
 using skylineapp.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace skylineapp.Views
         public SignUpPage()
         {
             BindingContext = new SignUpPageViewModel(this.Navigation);
-            //MessagingCenter.Subscribe<SignUpPageViewModel, string>(this, "MyAlertName");
+
             InitializeComponent();
         }
 

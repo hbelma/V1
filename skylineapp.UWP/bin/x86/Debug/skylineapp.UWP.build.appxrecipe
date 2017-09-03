@@ -394,6 +394,12 @@
     <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\Xam.Plugin.Media\3.0.1\lib\UAP10\Plugin.Media.dll">
       <PackagePath>Plugin.Media.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\Xam.Plugins.Forms.ImageCircle\1.8.1\lib\UAP10\ImageCircle.Forms.Plugin.Abstractions.dll">
+      <PackagePath>ImageCircle.Forms.Plugin.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\Xam.Plugins.Forms.ImageCircle\1.8.1\lib\UAP10\ImageCircle.Forms.Plugin.UWP.dll">
+      <PackagePath>ImageCircle.Forms.Plugin.UWP.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\Xam.Plugins.Settings\3.0.1\lib\UAP10\Plugin.Settings.Abstractions.dll">
       <PackagePath>Plugin.Settings.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
@@ -444,6 +450,9 @@
     <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\user.png">
+      <PackagePath>user.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp\Images\star_outline.png">
       <PackagePath>skylineapp\Images\star_outline.png</PackagePath>

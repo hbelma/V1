@@ -12,6 +12,7 @@ namespace skylineapp.Models
         private string user;
         private string category;
         private string desc;
+        private string userProfilePhoto;
         private string id;
 
         public string User { get => user; set => user = value; }
@@ -19,5 +20,6 @@ namespace skylineapp.Models
         public string Id { get => id; set => id = value; }
         public string PathToImage { get => pathToImage; set => pathToImage = value; }
         public string Desc { get => desc; set => desc = value; }
+        public string UserProfilePhoto { get => userProfilePhoto; set => userProfilePhoto = value; }
     }
 }
