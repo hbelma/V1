@@ -72,14 +72,8 @@
     <Compile Include="ViewModels\MainPageViewModel.cs" />
     <Compile Include="ViewModels\SignUpPageViewModel.cs" />
     <Compile Include="ViewModels\UploadPhotoViewModel.cs" />
-    <Compile Include="Views\AddImagePage.xaml.cs">
-      <DependentUpon>AddImagePage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\CategoriesPage.xaml.cs">
       <DependentUpon>CategoriesPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FacebookProfilePage.xaml.cs">
-      <DependentUpon>FacebookProfilePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ImageWrapLayoutPage.xaml.cs">
       <DependentUpon>ImageWrapLayoutPage.xaml</DependentUpon>
@@ -100,12 +94,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\MainPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\FacebookProfilePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -132,12 +120,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Views\ImageWrapLayoutPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\AddImagePage.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>

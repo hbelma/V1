@@ -55,11 +55,9 @@ D:\Faks\DiplomskiApp\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyRefere
 D:\Faks\BachelorNew\skylineapp\bin\Debug\skylineapp.dll
 D:\Faks\BachelorNew\skylineapp\bin\Debug\skylineapp.pdb
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.MainPage.xaml.g.cs
-D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.FacebookProfilePage.xaml.g.cs
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.SignUpPage.xaml.g.cs
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.CategoriesPage.xaml.g.cs
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.ImageWrapLayoutPage.xaml.g.cs
-D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.AddImagePage.xaml.g.cs
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.UploadPhotoPage.xaml.g.cs
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.dll
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.pdb

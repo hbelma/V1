@@ -17,28 +17,9 @@ namespace skylineapp.Views
     {
         public CategoriesPage()
         {
-            BindingContext = new CategoriesViewModel();
+            BindingContext = new CategoriesViewModel(this.Navigation);
             InitializeComponent();
         }
 
-        private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            if (e.SelectedItem == null)
-            {
-                return; 
-            }
-
-            ListView list = sender as ListView;
-            Category kategorija = list.SelectedItem as Category;
-
-            if (kategorija != null)
-            {
-                Navigation.PushAsync(new ImageWrapLayoutPage(kategorija.Title));
-            }
-            else
-            {
-                DisplayAlert("Problems", "Problems", "OK");
-            }
-        }
     }
 }

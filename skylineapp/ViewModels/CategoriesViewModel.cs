@@ -18,10 +18,28 @@ namespace skylineapp.ViewModels
     public class CategoriesViewModel : BaseViewModel
     {
         public INavigation Navigation { get; set; }
-        private MediaFile mediaFile;
 
-        private ICommand addPhotoCommand;
-        public ICommand AddPhotoCommand { get { return addPhotoCommand; } }
+        private Category selectedCategory;
+        public Category SelectedCategory
+        {
+            get
+            {
+                return selectedCategory;
+            }
+
+            set
+            {
+                selectedCategory = value;
+                OnPropertyChanged("SelectedCategory");
+                GoToImageLayout();  
+            }
+        }
+
+        public async Task GoToImageLayout()
+        {
+            await Navigation.PushAsync(new ImageWrapLayoutPage(SelectedCategory.Title));
+        }
+
         private ObservableCollection<Category> categories;
         public ObservableCollection<Category> Categories
         {
@@ -36,8 +54,10 @@ namespace skylineapp.ViewModels
                 OnPropertyChanged();
             }
         }
-        public CategoriesViewModel()
+
+        public CategoriesViewModel(INavigation Navigation)
         {
+            this.Navigation = Navigation;
             Categories = new ObservableCollection<Category>()
                 {
                     new Category("animals.jpg", "Animals", "If you're brave enough to capture a tiger on it's hunting day show us. Or if you're a lazy bag, just post a photo of your pet :P"),
@@ -51,10 +71,6 @@ namespace skylineapp.ViewModels
                 };
         }
 
-        public CategoriesViewModel(INavigation navigation)
-        {
-            Navigation.PushAsync(new AddImagePage());
-        }
 
     }
 }

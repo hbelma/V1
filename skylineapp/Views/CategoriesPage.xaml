@@ -5,8 +5,15 @@
              xmlns:local="clr-namespace:skylineapp.Models;assembly=skylineapp"
              x:Name="Categories"
              x:Class="skylineapp.Views.CategoriesPage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Text="My profile " Icon="user.png" />
+
+    </ContentPage.ToolbarItems>
+
+
     <ScrollView>
-        <ListView  x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Categories}" ItemSelected="listView_ItemSelected">
+        <ListView  x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory, Mode=TwoWay}" >
 
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -31,8 +38,7 @@
                             <Label Text="{Binding Subtitle}" Margin="5, 0, 5, 0" Grid.Column="1" Grid.Row="1" FontSize="Default" VerticalTextAlignment="Start" />
 
 
-                        </Grid>
-                        
+                        </Grid>                        
 
                     </ViewCell>
                 </DataTemplate>

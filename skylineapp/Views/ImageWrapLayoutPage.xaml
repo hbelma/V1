@@ -5,6 +5,8 @@
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              x:Class="skylineapp.Views.ImageWrapLayoutPage">
     <ContentPage.ToolbarItems>
+        <ToolbarItem  Text="My profile " Icon="user.png" />
+
         <ToolbarItem Icon="addphoto.png" Command="{Binding AddPhotoCommand}"/>
 
     </ContentPage.ToolbarItems>
