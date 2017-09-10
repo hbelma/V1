@@ -23,7 +23,6 @@ namespace skylineapp.ViewModels
 
         public INavigation Navigation { get; set; }
         public string cat;
-        private String userProfilePhoto;
 
         private ICommand addPhotoCommand;
         public ICommand AddPhotoCommand { get { return addPhotoCommand; } }
@@ -38,17 +37,7 @@ namespace skylineapp.ViewModels
             set
             {
                 images = value;
-                OnPropertyChanged();
-            }
-        }
-
-         public String UserProfilePhoto
-        {
-            get => userProfilePhoto;
-            set
-            {
-                userProfilePhoto = value;
-                OnPropertyChanged("UserProfilePhoto");
+                OnPropertyChanged("Images");
             }
         }
 

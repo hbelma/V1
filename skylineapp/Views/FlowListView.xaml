@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+        <StackLayout  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                   xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+
+             x:Class="skylineapp.Views.FlowListView">
+    
+    <flv:FlowListView FlowColumnCount="3" SeparatorVisibility="None" HasUnevenRows="false" VerticalOptions="Start" FlowItemsSource="{Binding MyImages}">
+
+        <flv:FlowListView.RowHeight>
+            <OnPlatform x:TypeArguments="x:Int32">
+                <On Platform="iOS">80</On>
+                <On Platform="Android">100</On>
+                <On Platform="UWP">104</On>
+            </OnPlatform>
+        </flv:FlowListView.RowHeight>   
+
+        <flv:FlowListView.FlowColumnTemplate>
+            <DataTemplate>
+                <Image Source="{Binding PathToImage}" Margin="1,1,1,1" VerticalOptions="Start" Aspect="AspectFill" HeightRequest="100" />
+            </DataTemplate>
+        </flv:FlowListView.FlowColumnTemplate>
+
+    </flv:FlowListView>
+
+</StackLayout>

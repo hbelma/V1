@@ -34,13 +34,11 @@ namespace skylineapp.Helpers
                 defaultInstance = value;
             }
         }
-
         public MobileServiceClient CurrentClient
         {
             get { return client; }
         }
-
-        public async Task SaveTaskAsync(User user)
+        public async Task SaveUserAsync(User user)
         {
             try
             {
@@ -57,6 +55,26 @@ namespace skylineapp.Helpers
             {
                 Debug.WriteLine(@"Sync error: {0}", e.Message);
             }
+        }
+        public async Task<ObservableCollection<User>> GetUserByEmailAsync(string email)
+        {
+            try
+            {
+                IEnumerable<User> users = await userTable
+                    .Where(user => user.Email == email)
+                    .ToEnumerableAsync();
+
+                return new ObservableCollection<User>(users);
+            }
+            catch (MobileServiceInvalidOperationException msioe)
+            {
+                Debug.WriteLine(@"Invalid sync operation: {0}", msioe.Message);
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(@"Sync error: {0}", e.Message);
+            }
+            return null;
         }
 
         public async Task<ObservableCollection<User>> GetUserByUsernameAsync(string username)
@@ -79,28 +97,8 @@ namespace skylineapp.Helpers
             }
             return null;
         }
-
-        public async Task<ObservableCollection<User>> GetUserByEmailAsync(string email)
-        {
-            try
-            {
-                IEnumerable<User> users = await userTable
-                    .Where(user => user.Email == email)
-                    .ToEnumerableAsync();
-
-                return new ObservableCollection<User>(users);
-            }
-            catch (MobileServiceInvalidOperationException msioe)
-            {
-                Debug.WriteLine(@"Invalid sync operation: {0}", msioe.Message);
-            }
-            catch (Exception e)
-            {
-                Debug.WriteLine(@"Sync error: {0}", e.Message);
-            }
-            return null;
-        }
-
+    
+       
         internal Task<ObservableCollection<User>> GetUserByUsername(string name)
         {
             throw new NotImplementedException();

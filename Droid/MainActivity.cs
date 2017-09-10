@@ -9,6 +9,7 @@ using Microsoft.WindowsAzure.MobileServices;
 using Plugin.Permissions;
 using Plugin.Media;
 using ImageCircle.Forms.Plugin.Droid;
+using DLToolkit.Forms.Controls;
 
 namespace skylineapp.Droid
 {
@@ -31,6 +32,8 @@ namespace skylineapp.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             ImageCircleRenderer.Init();
+            FlowListView.Init();
+
             LoadApplication(new App());
         }
 

@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:skylineapp.Behavior;assembly=skylineapp"
              xmlns:pics="clr-namespace:skylineapp.Models;assembly=skylineapp"
-                          xmlns:images="clr-namespace:skylineapp.Images;assembly=skylineapp"
-
+             xmlns:images="clr-namespace:skylineapp.Images;assembly=skylineapp"
+             Title="Register"
              x:Class="skylineapp.Views.SignUpPage">
 
     <ContentPage.Resources>
@@ -235,6 +235,7 @@
                     <local:EmailValidator x:Name="emailValidator" IsValid="{Binding IsValid, Mode=TwoWay}"/>
                 </Entry.Behaviors>
             </Entry>
+
             <Image Margin="2, 2, 2, 2"  Grid.Row="3" Grid.Column="2" x:Name="emailSuccessErrorImage" 
                   Style="{Binding Source={x:Reference emailValidator}, 
                                 Path=IsValid, 

@@ -19,6 +19,9 @@ namespace skylineapp.ViewModels
     {
         public INavigation Navigation { get; set; }
 
+        private ICommand myProfileCommand;
+        public ICommand MyProfileCommand { get { return myProfileCommand; } }
+
         private Category selectedCategory;
         public Category SelectedCategory
         {
@@ -55,9 +58,16 @@ namespace skylineapp.ViewModels
             }
         }
 
+        private async Task goToMyProfile()
+        {
+            await Navigation.PushAsync(new UserProfilePage());
+        }
+
         public CategoriesViewModel(INavigation Navigation)
         {
             this.Navigation = Navigation;
+            myProfileCommand = new Command( async() => await goToMyProfile());
+
             Categories = new ObservableCollection<Category>()
                 {
                     new Category("animals.jpg", "Animals", "If you're brave enough to capture a tiger on it's hunting day show us. Or if you're a lazy bag, just post a photo of your pet :P"),
@@ -71,6 +81,6 @@ namespace skylineapp.ViewModels
                 };
         }
 
-
+     
     }
 }

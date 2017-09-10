@@ -35,7 +35,6 @@ namespace skylineapp.ViewModels
 
         private UserManager userManager = UserManager.DefaultManager;
 
-
         public User User
         {
             get => user;
@@ -71,8 +70,8 @@ namespace skylineapp.ViewModels
         public async Task RegisterUser(User user)
         {
             
-                await userManager.SaveTaskAsync(user);
-                await Navigation.PushAsync(new CategoriesPage());
+                await userManager.SaveUserAsync(user);
+                await Navigation.PushAsync(new MainPage());
         }
 
 

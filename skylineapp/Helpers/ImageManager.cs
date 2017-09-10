@@ -79,7 +79,28 @@ namespace skylineapp.Helpers
         }
         return null;
     }
+        
+    public async Task<ObservableCollection<ImageTable>> GetPictureByUser(string username)
+        {
+            try
+            {
+                IEnumerable<ImageTable> images = await imageTable
+                .Where(image => image.User == username)
+                .ToEnumerableAsync();
+
+                return new ObservableCollection<ImageTable>(images);
+            }
+            catch (MobileServiceInvalidOperationException msioe)
+            {
+                Debug.WriteLine(@"Invalid sync operation: {0}", msioe.Message);
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(@"Sync error: {0}", e.Message);
+            }
+            return null;
+        }
 
 
-}
+    }
 }

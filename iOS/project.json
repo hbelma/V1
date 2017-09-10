@@ -1,5 +1,6 @@
 ﻿{
   "dependencies": {
+    "DLToolkit.Forms.Controls.FlowListView": "2.0.6",
     "Microsoft.Azure.Mobile.Client": "4.0.1",
     "NETStandard.Library": "2.0.0",
     "System.ComponentModel": "4.3.0",

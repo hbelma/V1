@@ -12,6 +12,7 @@ namespace skylineapp.Models
         public string Image { get; set; }
         public string Title { get; set; }
         public string Subtitle { get; set; }
+
         public Category()
         {
         }

@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="D:\Faks\BachelorNew\skylineapp.UWP\bin\x86\Debug\skylineapp.UWP.exe">
       <PackagePath>entrypoint\skylineapp.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\DLToolkit.Forms.Controls.FlowListView\2.0.6\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0\DLToolkit.Forms.Controls.FlowListView.dll">
+      <PackagePath>DLToolkit.Forms.Controls.FlowListView.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\belma\.nuget\packages\Microsoft.Azure.Mobile.Client\4.0.1\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
     </AppxPackagedFile>

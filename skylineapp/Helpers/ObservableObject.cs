@@ -33,15 +33,9 @@ namespace skylineapp.Helpers
             return true;
         }
 
-        /// <summary>
-        /// Occurs when property changed.
-        /// </summary>
+    
         public event PropertyChangedEventHandler PropertyChanged;
 
-        /// <summary>
-        /// Raises the property changed event.
-        /// </summary>
-        /// <param name="propertyName">Property name.</param>
         protected void OnPropertyChanged([CallerMemberName]string propertyName = "")
         {
             var changed = PropertyChanged;

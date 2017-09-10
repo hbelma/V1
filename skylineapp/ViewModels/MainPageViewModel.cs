@@ -34,19 +34,34 @@ namespace skylineapp.ViewModels
             this.Navigation = navigation;
             signUpCommand = new Command(async () => await GoToSignUpPage());
             loginCommand = new Command(async () => await LoginUser());
-        }      
+        }
+
+        public async Task LoginUser()
+        {
+            ObservableCollection<User> users = await userManager.GetUserByUsernameAsync(Username);
+
+            //if user is registered start session and go to categoriespage
+            if (users.Count == 1)
+            {
+                Settings.UserName = Username;
+                Settings.UserPassword = Password;
+                await Navigation.PushAsync(new CategoriesPage());
+            }
+
+            //notify user
+            else
+            {                
+                WrongUsernameOrPassword = true;
+            }
+        }
+
 
         public async Task GoToSignUpPage()
         {
             await Navigation.PushAsync(new SignUpPage());
         }
 
-        public async Task SignIn()
-        {
-            // To Do Login Function, check with db if user exits and if password is correct
-            await Navigation.PushAsync(new SignUpPage());
-        }
-
+   
         private FacebookProfile _facebookProfile;
 
         public FacebookProfile FacebookProfile
@@ -79,33 +94,12 @@ namespace skylineapp.ViewModels
             {
                 Settings.UserName = user.Username;
                 Settings.UserPassword = "FbUser";
-                await userManager.SaveTaskAsync(user);
+                await userManager.SaveUserAsync(user);
             }
       
         }
 
-        public async Task LoginUser()
-        {
-            ObservableCollection<User> users = await userManager.GetUserByUsernameAsync(Username);
-
-            if (users.Count == 1)
-            {
-
-                if ((Settings.UserName == string.Empty && Settings.UserPassword == string.Empty) ||
-                    ((Settings.UserName != string.Empty && Settings.UserName != Username) && (Settings.UserPassword != string.Empty && Settings.UserPassword != Password)))
-                {
-                    Settings.UserName = Username;
-                    Settings.UserPassword = Password;
-                }
-
-                await Navigation.PushAsync(new CategoriesPage());
-
-            }
-
-            else
-                WrongUsernameOrPassword = true;
-        }
-
+     
         private string username;
         public string Username
         {

@@ -62,3 +62,5 @@ D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.UploadPhotoPage.xaml.g
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.dll
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.pdb
 D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.csprojResolveAssemblyReference.cache
+D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.UserProfilePage.xaml.g.cs
+D:\Faks\BachelorNew\skylineapp\obj\Debug\skylineapp.Views.FlowListView.xaml.g.cs

@@ -54,19 +54,11 @@
              Placeholder="Password" IsPassword="True" >
             </Entry>
             
-            <Label IsVisible="{Binding WrongUsernameOrPassword}" Text="Wrong username or password" FontSize="Default" TextColor="Red" Grid.ColumnSpan="2" Grid.Row="4"></Label>
+            <Label IsVisible="{Binding WrongUsernameOrPassword}" Text="Wrong username or password" FontSize="Default" 
+                   TextColor="Red" Grid.ColumnSpan="2" Grid.Row="4"></Label>
 
-            <Button 
-                x:Name="signInBtn" 
-                TextColor="White" 
-                FontSize="18" 
-                Margin="0, 1, 0, 0" 
-                Grid.Row="5" 
-                Grid.ColumnSpan="2" 
-                Text="Sign in" 
-                VerticalOptions="Center" 
-                BackgroundColor="#4CAF50" 
-                Command="{Binding LoginCommand}"/>
+            <Button x:Name="signInBtn" TextColor="White" FontSize="18"   Margin="0, 1, 0, 0" Grid.Row="5"  Grid.ColumnSpan="2" 
+                Text="Sign in" VerticalOptions="Center" BackgroundColor="#4CAF50"  Command="{Binding LoginCommand}"/>
 
             <BoxView Margin="-2, 1, -2, 1" Grid.Row="6" Grid.ColumnSpan="2" BackgroundColor="Black"></BoxView>
             
